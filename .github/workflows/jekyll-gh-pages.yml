@@ -25,15 +25,20 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    needs: armchar
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: armchar
+        shell: bash
+        run: |
+          ./bin/armchar -s Data/hibernia.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./pages/
+          source: ./Hibernia/
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
