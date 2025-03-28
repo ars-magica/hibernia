@@ -32,11 +32,6 @@ jobs:
         shell: bash
         run: |
           ./bin/armchar -s Data/hibernia.json
-      - name: gem dependencies
-        shell: bash
-        run: |
-          cd pages
-          bundle install
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
