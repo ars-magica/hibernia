@@ -399,7 +399,9 @@
       { "mode" : "Lab Work", "season" : "Winter 1227"
       , "sourceQuality" : 2
       , "narrative" : "Training for Hiccup in Magic Theory.  (SQ 8 for Hiccup) Create Safe Cauldron. Using Folio-1109 for lab text. Exposure 2xp Magic Theory. Bonus XP in Hermes Lore. Using bookstand of Hespera"
-      , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } ]
+      , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
+                    , { "possession" : { "art" : "Cr", "count" : -3
+		        , "comment" : "for the Safe Cauldron" } } ]
       },
       { "mode" : "Reading", "season" : "Spring 1227"
       , "sourceQuality" : 17
@@ -430,13 +432,16 @@
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
                     , { "spell" : "Sense of the Lingering Magic", 
                        "tefo" : "InVi", "level" : 30
-	     , "mastery" : [ "Penetration" ]
+	            , "mastery" : [ "Penetration" ]
                     } 
       ]
       },
       { "mode" : "Reading", "season" : "Summer 1228"
       , "sourceQuality" : 13
-      , "changes" : [ { "art" : "Imaginem", "xp" : 13 } ]
+      , "changes" : [ { "art" : "Imaginem", "xp" : 13 } 
+                    , { "possession" : { "art" : "Vi", "count" : 3
+		        , "comment" : "sales at the Grand tribunal" } } ]
+                      ]
       },
       { "mode" : "Reading", "season" : "Autumn 1228"
       , "sourceQuality" : 13
@@ -931,7 +936,9 @@
       , "narrative" : "Midsummer Fair: Parma Magica (5), Folk Ken (5) + one confidence point "
       , "changes" : [ { "ability" : "Parma Magica", "xp" : 5 }
                     , { "ability" : "Folk Ken", "xp" : 5 } 
-                    , { "confidence" : "Confidence", "points" : 1 }
+                    , { "confidence" : "Confidence", "points" : 1 
+                    , { "possession" : { "art" : "Vi", "count" : 18
+		        , "comment" : "earned at the Midsumer fair" } } ]
       ]
       },
       { "mode" : "Reading", "season" : "Autumn 1244"
@@ -1247,7 +1254,9 @@
       { "mode" : "Author", "season" : "Autumn 1253"
       , "sourceQuality" : 2
       , "narrative" : "Rego Tracatus (62xp)"
-      , "changes" : [ { "ability" : "Latin", "xp" : 2 } ]
+      , "changes" : [ { "ability" : "Latin", "xp" : 2 } 
+                    , { "possession" : { "art" : "Im", "count" : 4
+		        , "comment" : "allowance/salary" } } ]
       },
       { "mode" : "Adventure", "season" : "Winter 1254"
       , "sourceQuality" : 7
