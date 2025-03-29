@@ -282,12 +282,12 @@
           , { "spell" : "Sense the Nature of Vis"
              , "tefo" : "InVi", "level" : 5
 	     , "mastery" : [ "Quiet Casting" ]
-             , { "possession" : { "art" : "Cr", "count" : 2, "comment" : "allowance" } }
           }
           , { "spell" : "Piercing the Magical Veil"
              , "tefo" : "InVi", "level" : 20
 	     , "mastery" : [ "Quiet Casting" ]
           }
+          , { "possession" : { "art" : "Cr", "count" : 2, "comment" : "allowance" } }
       ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1223"
@@ -376,9 +376,10 @@
       , "changes" : [ { "ability" : "Second Sight", "xp" : 5 } 
                     , { "ability" : "Parma Magica", "xp" : 5 }
                     , { "ability" : "Leadership", "xp" : 5 } 
-                    , { "confidence" : "Confidence", "points" : 5 } ]
+                    , { "confidence" : "Confidence", "points" : 5 } 
                     , { "possession" : { "art" : "Cr", "count" : 3, "comment" : "old claims" } }
                     , { "possession" : { "art" : "Me", "count" : 8, "comment" : "old claims" } }
+                    ]
       },
       { "mode" : "Open Arts", "season" : "Spring 1226"
       , "sourceQuality" : 2
@@ -440,7 +441,7 @@
       , "sourceQuality" : 13
       , "changes" : [ { "art" : "Imaginem", "xp" : 13 } 
                     , { "possession" : { "art" : "Vi", "count" : 3
-		        , "comment" : "sales at the Grand tribunal" } } ]
+		        , "comment" : "sales at the Grand tribunal" } } 
                       ]
       },
       { "mode" : "Reading", "season" : "Autumn 1228"
@@ -521,7 +522,7 @@
       { "mode" : "Lab Work", "season" : "Winter 1231"
       , "sourceQuality" : 2
       , "narrative" : "Enchanting Familiar "
-      , "changes" :  { "ability" : "Parma Magica", "xp" : 2 } ]
+      , "changes" : [ { "ability" : "Parma Magica", "xp" : 2 }
                     , { "possession" : { "art" : "Im", "count" : -9
 		        , "comment" : "bind familiar" } }
                     ]
@@ -936,10 +937,10 @@
       , "narrative" : "Midsummer Fair: Parma Magica (5), Folk Ken (5) + one confidence point "
       , "changes" : [ { "ability" : "Parma Magica", "xp" : 5 }
                     , { "ability" : "Folk Ken", "xp" : 5 } 
-                    , { "confidence" : "Confidence", "points" : 1 
+                    , { "confidence" : "Confidence", "points" : 1 }
                     , { "possession" : { "art" : "Vi", "count" : 18
-		        , "comment" : "earned at the Midsumer fair" } } ]
-      ]
+		        , "comment" : "earned at the Midsumer fair" } }
+                    ]
       },
       { "mode" : "Reading", "season" : "Autumn 1244"
       , "sourceQuality" : 11
