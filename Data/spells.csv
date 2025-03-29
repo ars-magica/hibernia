@@ -38,7 +38,7 @@ Gift of Communication,CrMe40,Cr,,Me,,40,,,,,,,Touch/Mon/Ind up to +1. Exaggerate
 Communication of the Heroes,CrMe60,Cr,,Me,,60,,,,Ritual,,,,
 Sight of Conflicting Motives,InMe15,In,,Me,,15,,,,,,,,
 Posing the Silent Question,InMe20,In,,Me,,20,,,,,,,,
-Trust of the Childlike Faith,PeMe10,Pe,,Me,,10,Touch,Diam,Ind,,,,,
+Trust of the Childlike Faith,PeMe10,Pe,,Me,,10,Touch,Diam,Ind,,"The target loses judgment and believes almost any passable lie for the duration of the spell. An Intelligence stress roll of 6+ is allowed to resist. Truly incredible lies allow easier resistance rolls.","Base 4, +1 Eye, +1 Diam",,Custom variant [ArM5:150]
 Arrow of Peaceful Slumber,ReMe15,Re,,Me,,15,Touch,Mom,Group,,,,,
 Touch of Slumber,ReMe5,Re,,Me,,5,Touch,Mom,Ind,,,,,
 Stone Tell of the Mind that Sits,InTe30,In,,Te,,30,Touch,Conc,Ind,,,Base 20,,
@@ -67,5 +67,5 @@ Opening the Intangible Tunnel,,Re,,Vi,,20,Arc,Conc,Ind,,,,,
 Watching Ward ,,Re,,Vi,,20,,,,,,,,
 Maintaining the Demanding Spell,,Re,,Vi,,21,,,,,,,,
 Circular Ward Against Demons,,Re,,Vi,,25,,,,,,,,
-Aegis of the Hearth,,Re,,Vi,,30,,,,Ritual,,,,
-Watching Ward,,Re,,Vi,,30,,,,Ritual,,,,
+Aegis of the Hearth,,Re,,Vi,,30,Touch,Year,Boundary,Ritual,,,,[ArM5:161]
+Watching Ward,,Re,,Vi,,30,Touch,Spec,Ind,Ritual,,,,[ArM5:162]
