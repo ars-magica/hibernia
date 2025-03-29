@@ -170,8 +170,8 @@
          [ { "ability" : "Infernal Lore", "spec" : "Undead", "xp": 5 }
          , { "ability" : "Parma Magica", "xp": 5 }
 	 , { "ability" : "Second Sight", "xp": 4 }
-         , { "posession" : { "name" : "Rego Vis from Jerome's body", "art" : "Re", "count" : 3 } }
-         , { "posession" : { "name" : "Perdo Vis from Jerome's body", "art" : "Pe", "count" : 1 } }
+         , { "possession" : { "name" : "Rego Vis from Jerome's body", "art" : "Re", "count" : 3 } }
+         , { "possession" : { "name" : "Perdo Vis from Jerome's body", "art" : "Pe", "count" : 1 } }
          ] 
       },
       { "mode" : "Reading"
