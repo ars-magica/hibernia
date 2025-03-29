@@ -1026,6 +1026,7 @@
       , "narrative" : "CrMe rituals x4 for Com to +5; (58xp) Tractatus on Corpus Q14 "
       , "changes" : [ { "ability" : "Latin", "xp" : 2 } 
 	            , { "characteristic" : "Com", "score" : 5 }
+	            , { "possession" : { "name" : "Mentem vis", "art" : "Me",  "count" : -48 } }
                     ]
       },
       { "mode" : "Reading", "season" : "Winter 1248"
