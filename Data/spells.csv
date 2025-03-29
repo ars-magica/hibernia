@@ -23,19 +23,19 @@ Prying Eyes,InIm5,In,,Im,,5,Touch,Conc,Room,,"You can see inside a room, as long
 Brushstrokes Revealed,InIm10,In,,Im,,10,Touch,Ring,Circle,,"This spell makes the species cast by an object within the circle more vivid, so that the magus can see tiny details that are otherwise invisible. This spell has traditionally been used to investigate the physical construction of artworks, but nature-oriented Jerbiton magi have recently begun using it to investigate the handiwork of God, by examining the tiny structures of creation.","Base 3, +1 Touch, +2 Ring",,[HoH:S:65]
 Palm of Seeing (Sun duration),InIm20,In,,Im,,20,Touch,Diam,Vision,,"The caster can see from the perspective of the target. This spell must Penetrate in order to sense creatures with Magic Resistance.  Ariane has learned this spell to cast down an Intangible Tunnel.","Base 1, +1 Touch, +1 Diameter, +4 Vision",,[TtA:80]
 Eyes of the Eagle (touch),InIm30,In,,Im,,30,Touch,Sun,Vision,,"You see distant things clearly. No matter how far away something is, you can make out details as if it were only a foot or so from you. Things do not all appear to be a foot away; you can simply make out details as well as if they were. You can still judge distance accurately; in fact, more accurately than normal, to within an inch or so at a distance of several miles, since you can see as clearly as if you were judging distance a foot away.","Base 3, +2 Sun, +4 Vision",,Custom variant [ArM5:145]
-Aura of Ennobled Presence,MuIm10,Mu,,Im,,10,Touch,Sun,Ind,,,,,
-Aura of the Trustful Merchant,MuIm10,Mu,,Im,,10,Touch,Sun,Ind,,,,,
-Ogre's Stench,MuIm25,Mu,,Im,,25,Touch,Sun,Group,,,,,
-Sight of the Warm Surface,MuIm15,Mu,,Im,,15,touch,conc,vision,,,,,
-Disguise of the Transformed Image,MuIm15,Mu,,Im,,15,touch,sun,vision,,,,,
+Aura of Ennobled Presence,MuIm10,Mu,,Im,,10,Touch,Sun,Ind,,"The target appears more forceful, authoritative, and believable.  Numerous subtle changes in appearance bring about this change, including a slight supernatural illumination of the face, a more erect posture, and a louder and smoother voice. The character gets a +3 on rolls to influence, lead, or convince others.","Base 3, +1 Touch, +2 Sun",,[ArM5:145]
+Aura of the Trustful Merchant,MuIm10,Mu,,Im,,10,Touch,Sun,Ind,,,,,Custom
+Ogre's Stench,MuIm25,Mu,,Im,,25,Touch,Sun,Group,,"You change the targets’ smell (up to 100 people) in such a disgusting and awful way that they and every person near them must make Stamina rolls against an Ease Factor of 6 or act with a –3 penalty to all rolls. If they botch, they throw up.","Base 1, +2 Voice, +2 Sun, +2 Group, +1 size, +2 very “detailed” smell)cw",,[MoH:125]
+Sight of the Warm Surface,MuIm15,Mu,,Im,,15,Touch,Conc,Vision,,,,,
+Disguise of the Transformed Image,MuIm15,Mu,,Im,,15,Touch,Sun,Vision,,,,,
 Circle of Undisturbed Rest,ReIm10,Re,,Im,,10,,,,,,,covers smell as well as hearing and sight,[MoH:30]
-Willful Sidestep,ReIm20,Re,,Im,,20,,,,,,,,
+Willful Sidestep,ReIm20,Re,,Im,,20,Touch,Sun,Ind,,,,Experimental research,Custom
 Image from the Wizard Torn,ReIm30,Re,In,Im,,30,Per,Conc,Ind,,"Your image separates from your body and moves as you do. It can speak whatever you say and do so in your voice, and you can see through its eyes. You must make an Int + Concentration stress roll for each solid object the image passes through and for each mile it travels. If you wish the image to be able to leave your sight, you must use an Arcane Connection to yourself (for example, a fingernail or a lock of hair) when you cast the spell. That connection becomes an integral part of the image, and when the spell ends, it falls to the ground wherever the image was located. As your image is away from your body, you are invisible and silent at your actual location.  The image is your image, so while you may move it in space you may not have it sit down if you are standing. Further, it appears as if illuminated by whatever light is falling on you, no matter what the level of illumination is at the image.","Base 15, +1 Concentration, +1 additional sense, +1 Intellego requisite",,[ArM:147]
-Confusion of the Insane Vibrations,ReIm35,Re,,Im,,35,,sun,,,,,,
+Confusion of the Insane Vibrations,ReIm35,Re,,Im,,35,,Sun,,,,,,
 By His Works,CrMe5,Cr,,Me,,5,Per,Conc,Ind,,,,,[HoH:TL:73]
-Gift of Perception,CrMe40,Cr,,Me,,40,,,,Ritual,,,,
-Gift of Communication,CrMe40,Cr,,Me,,40,,,,,,,Touch/Mon/Ind up to +1. Exaggerated sigil Ritual,
-Communication of the Heroes,CrMe60,Cr,,Me,,60,,,,Ritual,,,,
+Gift of Perception,CrMe40,Cr,,Me,,40,,Mom,Ind,Ritual,,,,
+Gift of Communication,CrMe40,Cr,,Me,,40,Touch,Mom,Ind,,,,up to +1. Exaggerated sigil Ritual,
+Communication of the Heroes,CrMe60,Cr,,Me,,60,Touch,Mom,Ind,Ritual,,,,[HoH:TL:103]
 Sight of Conflicting Motives,InMe15,In,,Me,,15,,,,,,,,
 Posing the Silent Question,InMe20,In,,Me,,20,,,,,,,,
 Trust of the Childlike Faith,PeMe10,Pe,,Me,,10,Touch,Diam,Ind,,"The target loses judgment and believes almost any passable lie for the duration of the spell. An Intelligence stress roll of 6+ is allowed to resist. Truly incredible lies allow easier resistance rolls.","Base 4, +1 Eye, +1 Diam",,Custom variant [ArM5:150]
