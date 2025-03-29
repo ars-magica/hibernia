@@ -1219,6 +1219,14 @@
                     , { "ability" : "Latin", "xp" : 2 }
                     , { "ability" : "Hermes Lore", "xp" : 4 }
                     , { "confidence" : "Confidence", "points" : 5 }
+                    , { "possession" : { "art" : "Me", "count" : 5
+		        , "comment" : "from the dark faerie in Provence" } } 
+                    , { "possession" : { "art" : "Im", "count" : 4
+		        , "comment" : "from the dark faerie in Provence" } } 
+                    , { "possession" : { "art" : "Te", "count" : 3
+		        , "comment" : "from the dark faerie in Provence" } } 
+                    , { "possession" : { "art" : "Cr", "count" : 2
+		        , "comment" : "from the dark faerie in Provence" } } 
       ]
       },
       { "mode" : "Reading", "season" : "Winter 1253"
