@@ -2,9 +2,9 @@ Name,TeFo,Te,Req(Te),Fo,Req(Fo),Lvl,R,D,T,Special,Description,Design,Comment,Ref
 Restoration of the Defiled Body,CrCo25,Cr,,Co,,25,Touch,Mom,Ind,Ritual,"Removes the crippling or malignant aftereffects of any injury, poison, or disease, or of premature aging. The effects of natural aging cannot be undone by this or any spell. This spell does not heal wounds, only extra effects.","Base 20, +1 Touch",,[ArM5:129]
 Wound without Cause,PeCo20,Pe,,Co,,20,Touch,Mom,Ind,,,"Base 15, touch +1",Causes a heavy wound,
 Spasms of the Uncontrolled Body,ReCo5,Re,,Co,,5,Touch,Sun,Ind,,,"Base 2, +1 Touch, +2 Sun",,Custom [ArM:134]
-Leap of Homecoming,ReCo35,Re,,Co,,35,Per,Mom,Ind,,,,,
-Leap of Homecoming (touch),ReCo40,Re,,Co,,40,Touch,Mom,Ind,,,,,
-Gift of the Frog's Legs,ReCo15,Re,,Co,,15,,,,,,,,
+Leap of Homecoming,ReCo35,Re,,Co,,35,Per,Mom,Ind,,"Transports you to any place to which you have an Arcane Connection. Most magi use this to return to their laboratories.","Base 35",,[ArM5:135]
+Leap of Homecoming (touch),ReCo40,Re,,Co,,40,Touch,Mom,Ind,,"Transports the target to any place to which you have an Arcane Connection.","Base 35 +1 Touch,,Custom
+Gift of the Frog's Legs,ReCo15,Re,,Co,,15,Touch,Mom,Ind,,"Allows the target to leap up to 15 feet vertically or 25 feet horizontally (2 feet less for every Encumbrance point). The person must make a Dexterity – Encumbrance stress roll of 0+ to land without injury. A miss indicates that he takes a Light Wound, and a botch indicates a Medium Wound. The target can only leap once for each casting of the spell, and that leap must be made within ten seconds. As with a frog’s leap, a running start does not improve the leap.","Base 10, +1 Touch",,[ArM5:134]
 Improved Purification of the Festering Wounds,CrCo25,Cr,,Co,,25,,,,,,,,
 Gift of Quickness (personal range),CrCo30,Cr,,Co,,30,Per,Mom,Ind,Ritual,,,up to 0,
 Converse with Plant and Tree,InHe25,In,,He,,25,,,,,,,,
@@ -16,10 +16,10 @@ The Studious Doppleganger,CrIm5,Cr,,Im,,5,,,,,,,,
 False Window,CrIm5,Cr,,Im,,5,Touch,Sun,Ind,,,,,
 Smoke of Escaping,CrIm5,Cr,,Im,,5,,,,,,,,
 Clarity of Public Speech,CrIm10,Cr,,Im,,10,Touch,Sun,Room,,,,"After Notes of Delightful Sound, but the focus is on human speech, loud and clear. ",
-Book of Images,CrIm15,Cr,,Im,,15,,,,,,,,[MoH:124]
-The Shadow of Human Life,CrIm40,Cr,,Im,Me,40,,,,,,,,[ArM:144]
+Book of Images,CrIm15,Cr,,Im,,15,Touch,Ring,Ind,,"This spell creates moving sounds and images that are stored in a circle (such as a drawn circle on paper) as long as it is intact. With this spell it is possible to create a whole book or gallery of fantastic images and talking pictures, but only if proper Finesse rolls are made.","Base 2, +1 Touch, +2 Ring, +1 moving images, +1 intricacy",,[MoH:124]
+The Shadow of Human Life,CrIm40,Cr,,Im,Me,40,Touch,Sun,Ind,,"The human image created (as in Phantasm of the Human Form) has limited freedom and simulated intellect. It functions as an independent human, albeit a stupid one, capable of interpreting general orders in new situations.","Base 2, +1 Touch, +2 Sun, +1 intricacy, +6 Mentem requisite, for a very elaborate effect",,[ArM:144]
 Horror Cabinet,CrIm35,Cr,Re,Im,,35,Touch,Moon,Room,,"Fills the room with horrible, moving images of beasts, ghosts, and undead threatening to devour any intruders.  Most will run in panic (failing a brave personality roll 12+), and some (botching such roll) may be driven insane.",Base 3 (three senses) + Touch + Moon +Room -> L25 +1 (Rego) +1 (Complexity) -> L35,,
-Prying Eyes,InIm5,In,,Im,,5,,,,,,,,
+Prying Eyes,InIm5,In,,Im,,5,Touch,Conc,Room,,"You can see inside a room, as long as you can touch one of its walls. If the room is unlit or poorly lit, you can only see as much as you could if you were inside, but magical enhancements of your senses do apply. You may change your viewpoint within the room throughout the duration of the spell.","Base 1, +1 Touch, +1 Concentration, +2 Room",,[ArM5:144]
 Brushstrokes Revealed,InIm10,In,,Im,,10,,,,,,,,
 Palm of Seeing (Sun duration),InIm20,In,,Im,,20,,,,,,,,
 Eyes of the Eagle (touch),InIm30,In,,Im,,30,touch,,,,,,,
