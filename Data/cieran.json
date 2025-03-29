@@ -169,7 +169,9 @@
       , "changes" : 
          [ { "ability" : "Infernal Lore", "spec" : "Undead", "xp": 5 }
          , { "ability" : "Parma Magica", "xp": 5 }
-         , { "ability" : "Second Sight", "xp": 4 }
+	 , { "ability" : "Second Sight", "xp": 4 }
+         , { "posession" : { "art" : "Re", "count" : 3 } }
+         , { "posession" : { "art" : "Pe", "count" : 1 } }
          ] 
       },
       { "mode" : "Reading"
