@@ -1269,17 +1269,23 @@
       { "mode" : "Vis study", "season" : "Spring 1254"
       , "sourceQuality" : 16
       , "narrative" : " (319xp)"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 16 } ]
+      , "changes" : [ { "art" : "Imaginem", "xp" : 16 } 
+                    , { "possession" : { "art" : "Im", "count" : -5
+		        , "comment" : "vis study" } } ]
       },
       { "mode" : "Vis study", "season" : "Summer 1254"
       , "sourceQuality" : 21
       , "narrative" : " (350½xp)"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 21 } ]
+      , "changes" : [ { "art" : "Imaginem", "xp" : 21 } 
+                    , { "possession" : { "art" : "Im", "count" : -5
+		        , "comment" : "vis study" } } ]
       },
       { "mode" : "Vis study", "season" : "Autumn 1254"
       , "sourceQuality" : 14
       , "narrative" : "  (371½xp)"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 14 } ]
+      , "changes" : [ { "art" : "Imaginem", "xp" : 14 } 
+                    , { "possession" : { "art" : "Im", "count" : -5
+		        , "comment" : "vis study" } } ]
       },
       { "mode" : "Lab Work", "season" : "Winter 1255"
       , "sourceQuality" : 2
