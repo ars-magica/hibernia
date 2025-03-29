@@ -3,7 +3,7 @@ Restoration of the Defiled Body,CrCo25,Cr,,Co,,25,Touch,Mom,Ind,Ritual,"Removes 
 Wound without Cause,PeCo20,Pe,,Co,,20,Touch,Mom,Ind,,,"Base 15, touch +1",Causes a heavy wound,
 Spasms of the Uncontrolled Body,ReCo5,Re,,Co,,5,Touch,Sun,Ind,,,"Base 2, +1 Touch, +2 Sun",,Custom [ArM:134]
 Leap of Homecoming,ReCo35,Re,,Co,,35,Per,Mom,Ind,,"Transports you to any place to which you have an Arcane Connection. Most magi use this to return to their laboratories.","Base 35",,[ArM5:135]
-Leap of Homecoming (touch),ReCo40,Re,,Co,,40,Touch,Mom,Ind,,"Transports the target to any place to which you have an Arcane Connection.","Base 35 +1 Touch,,Custom
+Leap of Homecoming (touch),ReCo40,Re,,Co,,40,Touch,Mom,Ind,,"Transports the target to any place to which you have an Arcane Connection.","Base 35 +1 Touch",,Custom
 Gift of the Frog's Legs,ReCo15,Re,,Co,,15,Touch,Mom,Ind,,"Allows the target to leap up to 15 feet vertically or 25 feet horizontally (2 feet less for every Encumbrance point). The person must make a Dexterity – Encumbrance stress roll of 0+ to land without injury. A miss indicates that he takes a Light Wound, and a botch indicates a Medium Wound. The target can only leap once for each casting of the spell, and that leap must be made within ten seconds. As with a frog’s leap, a running start does not improve the leap.","Base 10, +1 Touch",,[ArM5:134]
 Improved Purification of the Festering Wounds,CrCo25,Cr,,Co,,25,,,,,,,,
 Gift of Quickness (personal range),CrCo30,Cr,,Co,,30,Per,Mom,Ind,Ritual,,,up to 0,
