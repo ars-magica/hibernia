@@ -1,9 +1,9 @@
-Name,TeFo,Te,Req(Te),Fo,Req(Fo),Lvl,R,D,T,Special,Description,Design,Comment,
-Restoration of the Defiled Body,CrCo25,Cr,,Co,,25,,,,Ritual,,,,
+Name,TeFo,Te,Req(Te),Fo,Req(Fo),Lvl,R,D,T,Special,Description,Design,Comment,Ref
+Restoration of the Defiled Body,CrCo25,Cr,,Co,,25,Touch,Mom,Ind,Ritual,"Removes the crippling or malignant aftereffects of any injury, poison, or disease, or of premature aging. The effects of natural aging cannot be undone by this or any spell. This spell does not heal wounds, only extra effects.","Base 20, +1 Touch",,[ArM5:129]
 Wound without Cause,PeCo20,Pe,,Co,,20,Touch,Mom,Ind,,,"Base 15, touch +1",Causes a heavy wound,
-Spasms of the Uncontrolled Body,ReCo5,Re,,Co,,5,,,,,,"Base 1 ; R: Touch, D: Sun, T: Ind, ",,
-Leap of Homecoming,ReCo35,Re,,Co,,35,,,,,,,,
-Leap of Homecoming (touch),ReCo40,Re,,Co,,40,Touch,,,,,,,
+Spasms of the Uncontrolled Body,ReCo5,Re,,Co,,5,Touch,Sun,Ind,,,"Base 2, +1 Touch, +2 Sun",,Custom [ArM:134]
+Leap of Homecoming,ReCo35,Re,,Co,,35,Per,Mom,Ind,,,,,
+Leap of Homecoming (touch),ReCo40,Re,,Co,,40,Touch,Mom,Ind,,,,,
 Gift of the Frog's Legs,ReCo15,Re,,Co,,15,,,,,,,,
 Improved Purification of the Festering Wounds,CrCo25,Cr,,Co,,25,,,,,,,,
 Gift of Quickness (personal range),CrCo30,Cr,,Co,,30,Per,Mom,Ind,Ritual,,,up to 0,
