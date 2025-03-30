@@ -33,21 +33,21 @@ Willful Sidestep,ReIm20,Re,,Im,,20,Touch,Sun,Ind,,,,Experimental research,Custom
 Image from the Wizard Torn,ReIm30,Re,In,Im,,30,Per,Conc,Ind,,"Your image separates from your body and moves as you do. It can speak whatever you say and do so in your voice, and you can see through its eyes. You must make an Int + Concentration stress roll for each solid object the image passes through and for each mile it travels. If you wish the image to be able to leave your sight, you must use an Arcane Connection to yourself (for example, a fingernail or a lock of hair) when you cast the spell. That connection becomes an integral part of the image, and when the spell ends, it falls to the ground wherever the image was located. As your image is away from your body, you are invisible and silent at your actual location.  The image is your image, so while you may move it in space you may not have it sit down if you are standing. Further, it appears as if illuminated by whatever light is falling on you, no matter what the level of illumination is at the image.","Base 15, +1 Concentration, +1 additional sense, +1 Intellego requisite",,[ArM:147]
 Confusion of the Insane Vibrations,ReIm35,Re,,Im,,35,,Sun,,,,,,
 By His Works,CrMe5,Cr,,Me,,5,Per,Conc,Ind,,,,,[HoH:TL:73]
-Gift of Perception,CrMe40,Cr,,Me,,40,,Mom,Ind,Ritual,,,,
-Gift of Communication,CrMe40,Cr,,Me,,40,Touch,Mom,Ind,,,,up to +1. Exaggerated sigil Ritual,
+Gift of Perception,CrMe40,Cr,,Me,,40,Touch,Mom,Ind,Ritual,"Permanently increases the target’s Perception by 1 point, to no higher than +1.","Base 35, +1 Touch",Exaggerated sigil,Custom
+Gift of Communication,CrMe40,Cr,,Me,,40,Touch,Mom,Ind,Ritual,"Permanently increases the target’s Communication by 1 point, to no higher than +1.","Base 35, +1 Touch",Exaggerated sigil,Custom
 Communication of the Heroes,CrMe60,Cr,,Me,,60,Touch,Mom,Ind,Ritual,,,,[HoH:TL:103]
-Sight of Conflicting Motives,InMe15,In,,Me,,15,,,,,,,,
-Posing the Silent Question,InMe20,In,,Me,,20,,,,,,,,
+Sight of Conflicting Motives,InMe15,In,,Me,,15,Eye,Mom,Ind,,"You can detect the conflicting motives behind one target’s actions.  Thus you might learn that a guard feels conflict between fear and duty. This spell is often used before application of a Muto or Rego spell, since it is usually easier to change a target’s emotions after you’ve sensed them than it is to create emotions.","Base 10, +1 Eye",,[ArM5:149]
+Posing the Silent Question,InMe20,In,,Me,,20,Eye,Mom,Ind,,"You can ask one silent mental question of the target, then detect the answer. The truth of the answer is limited by the knowledge of the target. Questions to the effect of “What would you do if . . . ?” often receive inaccurate replies. You are likely to get what the target thinks he would do, not necessarily what he would really do. The target of this spell does not notice the questioning unless he or she makes a Magic Resistance roll.","Base 15, +1 Eye",,[ArM5:139]
 Trust of the Childlike Faith,PeMe10,Pe,,Me,,10,Touch,Diam,Ind,,"The target loses judgment and believes almost any passable lie for the duration of the spell. An Intelligence stress roll of 6+ is allowed to resist. Truly incredible lies allow easier resistance rolls.","Base 4, +1 Eye, +1 Diam",,Custom variant [ArM5:150]
-Arrow of Peaceful Slumber,ReMe15,Re,,Me,,15,Touch,Mom,Group,,,,,
-Touch of Slumber,ReMe5,Re,,Me,,5,Touch,Mom,Ind,,,,,
+Arrow of Peaceful Slumber,ReMe15,Re,,Me,,15,Touch,Mom,Group,,"Everyone in the group falls asleep over a few seconds, with the smell of lilacs in their nostrils.","Base 4, +1 Voice, +2 Group",,Custom
+Touch of Slumber,ReMe5,Re,,Me,,5,Touch,Mom,Ind,,"The target becomes sleepy and falls asleep within a few seconds.","Base 4, +1 Touch",,Custom 
 Stone Tell of the Mind that Sits,InTe30,In,,Te,,30,Touch,Conc,Ind,,,Base 20,,
-Miner's Keen Eye,InTe25,In,,Te,,25,Touch,,,,,,,
+Miner's Keen Eye (touch),InTe25,In,,Te,,25,Touch,Conc,Vision,,"The target can see any one type of mineral (gold, diamond, sand), specified at the time of casting, through up to 3 paces of intervening material. You have a good idea of how much is there and how pure it is, if appropriate.","Base 2, +1 Concentration, +4 Vision, +1 see through intervening material",,Custom [ArM5:153]
 Obliteration of the Metallic Barrier,PeTe20,Pe,,Te,,20,Touch,Mom,Ind,,,,,
 End of the Mighty Castle,PeTe20,Pe,,Te,,20,Touch,Mom,Str,,,,,
 Arrow of Gaping Earth,PeTe15,Pe,,Te,,15,Touch,Mom,Part,,,,"opens a pit in front of the caster, 15 paces wide, 14 feet deep - size +2)",
 Sense the Nature of Vis,,In,,Vi,,5,,,,,,,,
-Spot the Presence of Vis,,In,,Vi,,5,,,,,,Base 1. Per Mom Vision,,
+Spot the Presence of Vis,,In,,Vi,,5,Per,Mom,Vision,,,Base 1 +4 Vision,,Custom
 Scales of Magical Weight,,In,,Vi,,5,,,,,,,,
 Piercing the Faerie Veil,,In,,Vi,,20,Per,Conc,Vision,,,,,
 Piercing the Magical Veil,,In,,Vi,,20,Per,Conc,Vision,,,,,
@@ -64,8 +64,8 @@ Circle of Demon's Oblivion,,Pe,,Vi,,15,Touch,Mom,Circle,,,,,
 Tearing the Fabric of Imaginem,,Pe,,Vi,,13,Touch,Mom,Ind,,,, like UNRAVELLING THE FABRIC OF (Form) at shorter range cancels spells up to level 28+simple die,
 The Minute of Reckoning,ReVi5,Re,,Vi,,5,Arc,Diam,Ind,,"This spells opens a magical tunnel between the caster and the target.  Spells cast through this tunnel can be up to the level of this spell.  Unlike the Opening the Intangible Tunnel spell, the caster does not need to maintain concentration on this spell; this spell has duration of Diameter. This has advantages (the caster doesn’t need to maintain concentration) and disadvantages (the tunnel cannot be swiftly closed by ceasing to concentrate).  Note that, despite the name of this spell, a Diameter duration spell actually lasts for two minutes.","Base effect, +4 Arcane Connection, +1 Diameter",,[HP:80]
 Opening the Intangible Tunnel,,Re,,Vi,,20,Arc,Conc,Ind,,,,,
-Watching Ward ,,Re,,Vi,,20,,,,,,,,
-Maintaining the Demanding Spell,,Re,,Vi,,21,,,,,,,,
-Circular Ward Against Demons,,Re,,Vi,,25,,,,,,,,
+Watching Ward,,Re,,Vi,,20,,,,,,,,
+Maintaining the Demanding Spell,,Re,,Vi,,21,Touch,Diam,Ind,,,,,[ArM5:162]
+Circular Ward Against Demons,,Re,,Vi,,25,Touch,Ring,Circle,,"All creatures with Infernal Might equal to or less than the level of the spell are unable to enter the circle or harm those within it.  If you cast the spell again, the stronger ring dispels the weaker, regardless of the order of casting. Some magi cast this spell before going to sleep at night. At night, from certain angles, the ring may be seen as a silver-hued dome.","Base Spell",,[ArM5:162]
 Aegis of the Hearth,,Re,,Vi,,30,Touch,Year,Boundary,Ritual,,,,[ArM5:161]
 Watching Ward,,Re,,Vi,,30,Touch,Spec,Ind,Ritual,,,,[ArM5:162]

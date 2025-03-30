@@ -698,7 +698,7 @@
       , "sourceQuality" : 2
       , "narrative" : "Miner's Keen Eye (covenant service)  InTe lab total 52 (incl. Hiccup +7, Jimeny +3)"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
-         , { "spell" : "Miner's Keen Eye", "tefo" : "InTe", "level" : 25 
+         , { "spell" : "Miner's Keen Eye (touch)", "tefo" : "InTe", "level" : 25 
            , "mastery" : [ "Penetration" ] 
 	 }
       ]
