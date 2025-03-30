@@ -32,6 +32,16 @@ jobs:
         shell: bash
         run: |
           ./bin/harm -s Data/hibernia.json
+
+      - name: Setup Python 3.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: check JSON syntax
+        shell: bash
+        run: |
+            sh bin/syntaxcheck.sh > pages/syntaxcheck.txt
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
@@ -39,16 +49,6 @@ jobs:
         with:
           source: ./pages/
           destination: ./_site
-
-      - name: Setup Python 3.x
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.11
-
-      - name: check JSON syntax
-        shell: bash
-        run: |
-            sh bin/syntaxcheck.sh > pages/syntaxcheck.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
   # Deployment job
