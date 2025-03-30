@@ -901,8 +901,14 @@
       , "sourceQuality" : 2
       , "narrative" : "Lab Assistance. Longevity Ritual.  Exposure Magic Theory -> 7 (140xp)"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 }
-         , { "aging" : { "longevity" : 22 } 
-         } ]
+         , { "aging" : { "longevity" : 22 } } 
+         , { "possession" : { "art" : "Vi", "count" : 2
+                            , "comment" : "payment to Main for the LR" } }
+         , { "possession" : { "art" : "Pe", "count" : 1
+                            , "comment" : "payment to Main for the LR" } }
+         , { "possession" : { "art" : "Te", "count" : 1
+                            , "comment" : "payment to Main for the LR" } }
+      ]
       },
       { "mode" : "Lab work", "season" : "Autumn 1242"
       , "sourceQuality" : 2
