@@ -129,6 +129,9 @@
          , { "spell" : "End of the Mighty Castle", "tefo" : "PeTe", "level" : 20
            , "mastery" : [ "Penetration" ] }
          , { "possession" : { "weapon" : [ "Longbow" ] } }
+         , { "possession" : { "weapon" : [ "Dagger" ] } }
+         , { "possession" : { "weapon" : [ "Quarterstaff" ] } }
+         , { "possession" : { "weapon" : [ "Writing Materials" ] } }
          , { "combat" : { "weapon" :  "Longbow" } }
          , { "combat" : { "weapon" :  "Dodge" } }
          , { "combat" : { "weapon" :  "Fist"  } }
@@ -626,7 +629,12 @@
       { "mode" : "Exposure", "season" : "Spring 1234"
       , "sourceQuality" : 2
       , "narrative" : "Hiccup "
-      , "changes" : [ { "ability" : "Teaching", "xp" : 2 } ]
+      , "changes" : [ { "ability" : "Teaching", "xp" : 2 } 
+         , { "possession" : { "name" : "Stone-Cutting Knife"
+                            , "comment" : "made by Hiccup" } }
+         , { "possession" : { "name" : "Porter’s Glove"
+                            , "comment" : "made by Hiccup" } }
+      ]
       },
       { "mode" : "Reading", "season" : "Summer 1234"
       , "sourceQuality" : 16
@@ -646,7 +654,6 @@
       , "narrative" : "13x1½ -> Imaginem 105x1½xp = 157½ -> 17 (4½)"
       , "changes" : [ { "art" : "Imaginem", "xp" : 13 } 
          , { "possession" : { "art" : "Te", "count" : 2, "comment" : "Allowance" } }
-         , { "possession" : { "art" : "Te", "count" : -5, "comment" : "enchantments" } }
       ]
       },
       { "mode" : "Teaching", "season" : "Spring 1235"
@@ -671,7 +678,11 @@
       { "mode" : "Reading", "season" : "Autumn 1235"
       , "sourceQuality" : 12
       , "narrative" : " 52->64 "
-      , "changes" : [ { "art" : "Rego", "xp" : 12 } ]
+      , "changes" : [ { "art" : "Rego", "xp" : 12 } 
+         , { "possession" : { "name" : "Weightless Chain (Protection 9, Load 2)"
+                            , "comment" : "made by Hiccup" } }
+         , { "possession" : { "art" : "Te", "count" : -5, "comment" : "enchantments" } }
+      ]
       },
       { "mode" : "Reading", "season" : "Winter 1236"
       , "sourceQuality" : 13
