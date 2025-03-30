@@ -1073,7 +1073,14 @@
       , "narrative" : "CrMe rituals x3 for Com to +5; (58xp) Tractatus on Corpus Q14 "
       , "changes" : [ { "ability" : "Latin", "xp" : 2 } 
 	            , { "characteristic" : "Com", "score" : 5 }
-	            , { "possession" : { "name" : "Mentem vis", "art" : "Me",  "count" : -48 } }
+	            , { "possession" : {  "art" : "Me",  "count" : -20, "comment" : "For the Heroes ritual" } }
+	            , { "possession" : {  "art" : "Cr",  "count" : -4, "comment" :  "For the Heroes ritual" } }
+	            , { "possession" : {  "art" : "Vi",  "count" : -14, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "Pe",  "count" : -1, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "In",  "count" : -4, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "Mu",  "count" : -2, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "Te",  "count" : -2, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "Re",  "count" : -1, "comment" :  "Traded for Mentem for the ritual" } }
                     ]
       },
       { "mode" : "Reading", "season" : "Winter 1248"
@@ -1121,6 +1128,7 @@
             , "agingRollDie" : 0
             , "agingRoll" : -18
             , "agingComment" : "No aging. Die not recorded"
+	    , { "possession" : {  "art" : "Me",  "count" : 4, "comment" :  "Payment from Sean" } }
          } 
          } 
       ]
