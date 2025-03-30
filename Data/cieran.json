@@ -919,6 +919,8 @@
             , "agingComment" : "No aging. Rolls not recorded"
          } 
          }
+         , { "possession" : { "art" : "Pe", "count" : 1
+	   , "comment" : "allowance (net, paying 1p for faerie ingredients)" } }
       ]
       },
       { "mode" : "Reading", "season" : "Spring 1243"
@@ -1006,6 +1008,12 @@
                     , { "ability" : "Parma Magica", "xp" : 5 } 
                     , { "ability" : "Faerie Lore", "xp" : 5 } 
                     , { "confidence" : "Confidence", "points" : 4 }
+                    , { "possession" : { "art" : "Te", "count" : 2
+	              , "comment" : "from Vincenzo's body" } }
+                    , { "possession" : { "art" : "Me", "count" : 12
+	              , "comment" : "salary (4p) and allowance (8p) 1244-47" } }
+                    , { "possession" : { "art" : "Vi", "count" : -4
+	              , "comment" : "Faerie Ingredients 1244-47" } }
 		    ]
       },
       { "mode" : "Reading", "season" : "Summer 1245"
@@ -1128,8 +1136,10 @@
             , "agingRollDie" : 0
             , "agingRoll" : -18
             , "agingComment" : "No aging. Die not recorded"
-	    , { "possession" : {  "art" : "Me",  "count" : 4, "comment" :  "Payment from Sean" } }
-         } 
+            } 
+         }
+	 , { "possession" : {  "art" : "Me",  "count" : 4
+                               , "comment" :  "Payment from Sean" } 
          } 
       ]
       },
