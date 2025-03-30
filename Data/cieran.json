@@ -613,9 +613,9 @@
       },
       { "mode" : "Lab Work", "season" : "Autumn 1233"
       , "sourceQuality" : 2
-      , "narrative" : "Ward of Heat and Flames Parma to 51xp ; Lab Total 42 + Hiccup (6) + Familiar (4) = 52"
+      , "narrative" : "Ward against Heat and Flames Parma to 51xp ; Lab Total 42 + Hiccup (6) + Familiar (4) = 52"
       , "changes" : [ { "ability" : "Parma Magica", "xp" : 2 } 
-         , { "spell" : "Ward of Heat and Flames"
+         , { "spell" : "Ward against Heat and Flames"
 	    , "mastery" : [ "Fast Casting" ]
             , "tefo" : "ReIg", "level" : 25
          }

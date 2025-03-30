@@ -2,7 +2,7 @@
    "title" : "Hibernia Saga (Contested Lands)"
    , "seasons" : [ "Summer 1254", "Summer 1255" ]
    , "rootDirectory" : "pages/"
-   , "covenantFiles" : []
+   , "covenantFiles" : [ "Data/elksrun.json" ]
    , "characterFiles" : [ "Data/cieran.json", "Data/eogan.json", "Data/tessa.json" ]
    , "spellFile" : "Data/spells.csv"
    , "weaponFile" : "Data/weapons.csv"
