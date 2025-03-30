@@ -10,6 +10,7 @@
       , "born" : 1192
       , "player" : "George"
       , "charGlance" : { }
+      , "portrait" : "cieran.jpeg"
       , "charData" : 
         { "Size" : 0 
         , "Nationality" : "Irish" 
@@ -128,6 +129,9 @@
          , { "spell" : "End of the Mighty Castle", "tefo" : "PeTe", "level" : 20
            , "mastery" : [ "Penetration" ] }
          , { "possession" : { "weapon" : [ "Longbow" ] } }
+         , { "possession" : { "weapon" : [ "Dagger" ] } }
+         , { "possession" : { "weapon" : [ "Quarterstaff" ] } }
+         , { "possession" : { "weapon" : [ "Writing Materials" ] } }
          , { "combat" : { "weapon" :  "Longbow" } }
          , { "combat" : { "weapon" :  "Dodge" } }
          , { "combat" : { "weapon" :  "Fist"  } }
@@ -187,6 +191,7 @@
       , "sourceQuality" : 2
       , "changes" : 
          [ { "ability" : "Parma Magica", "xp": 2 }
+         , { "possession" : { "art" : "Te", "count" : 3, "comment" : "salary for the Jerome's Tower job" } }
          ] 
       , "narrative" : "Enchant Bookstand of Hespera" 
       },
@@ -195,7 +200,6 @@
       , "sourceQuality" : 16
       , "changes" : 
          [ { "art" : "Intellego", "xp": 16 }
-         , { "possession" : { "art" : "Te", "count" : 3, "comment" : "salary" } }
          ] 
       , "narrative" : "Also a short story to Praesis."
       },
@@ -580,7 +584,13 @@
       { "mode" : "Teaching", "season" : "Winter 1233"
       , "sourceQuality" : 15
       , "narrative" : "Hired teacher for £1. "
-      , "changes" : [ { "ability" : "Craft: Rope.", "xp" : 15 } ]
+      , "changes" : [ { "ability" : "Craft: Rope.", "xp" : 15 } 
+         , { "possession" : { "art" : "Me", "count" : 8 } }
+         , { "possession" : { "art" : "Te", "count" : 1 } }
+         , { "possession" : { "art" : "Me", "count" : -16, "comment" : "casting Gift of Perception twice" } }
+	 , { "characteristic" : "Per", "score" : 1
+           , "comment" : "Gift of Perception Ritual Twice" }
+      ]
       },
       { "mode" : "Exposure", "season" : "Spring 1233"
       , "sourceQuality" : 2
@@ -603,9 +613,9 @@
       },
       { "mode" : "Lab Work", "season" : "Autumn 1233"
       , "sourceQuality" : 2
-      , "narrative" : "Ward of Heat and Flames Parma to 51xp ; Lab Total 42 + Hiccup (6) + Familiar (4) = 52"
+      , "narrative" : "Ward against Heat and Flames Parma to 51xp ; Lab Total 42 + Hiccup (6) + Familiar (4) = 52"
       , "changes" : [ { "ability" : "Parma Magica", "xp" : 2 } 
-         , { "spell" : "Ward of Heat and Flames"
+         , { "spell" : "Ward against Heat and Flames"
 	    , "mastery" : [ "Fast Casting" ]
             , "tefo" : "ReIg", "level" : 25
          }
@@ -619,7 +629,12 @@
       { "mode" : "Exposure", "season" : "Spring 1234"
       , "sourceQuality" : 2
       , "narrative" : "Hiccup "
-      , "changes" : [ { "ability" : "Teaching", "xp" : 2 } ]
+      , "changes" : [ { "ability" : "Teaching", "xp" : 2 } 
+         , { "possession" : { "name" : "Stone-Cutting Knife"
+                            , "comment" : "made by Hiccup" } }
+         , { "possession" : { "name" : "Porter’s Glove"
+                            , "comment" : "made by Hiccup" } }
+      ]
       },
       { "mode" : "Reading", "season" : "Summer 1234"
       , "sourceQuality" : 16
@@ -637,7 +652,9 @@
       { "mode" : "Reading", "season" : "Winter 1235"
       , "sourceQuality" : 13
       , "narrative" : "13x1½ -> Imaginem 105x1½xp = 157½ -> 17 (4½)"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 13 } ]
+      , "changes" : [ { "art" : "Imaginem", "xp" : 13 } 
+         , { "possession" : { "art" : "Te", "count" : 2, "comment" : "Allowance" } }
+      ]
       },
       { "mode" : "Teaching", "season" : "Spring 1235"
       , "sourceQuality" : 2
@@ -661,7 +678,11 @@
       { "mode" : "Reading", "season" : "Autumn 1235"
       , "sourceQuality" : 12
       , "narrative" : " 52->64 "
-      , "changes" : [ { "art" : "Rego", "xp" : 12 } ]
+      , "changes" : [ { "art" : "Rego", "xp" : 12 } 
+         , { "possession" : { "name" : "Weightless Chain (Protection 9, Load 2)"
+                            , "comment" : "made by Hiccup" } }
+         , { "possession" : { "art" : "Te", "count" : -5, "comment" : "enchantments" } }
+      ]
       },
       { "mode" : "Reading", "season" : "Winter 1236"
       , "sourceQuality" : 13
@@ -677,7 +698,7 @@
       , "sourceQuality" : 2
       , "narrative" : "Miner's Keen Eye (covenant service)  InTe lab total 52 (incl. Hiccup +7, Jimeny +3)"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
-         , { "spell" : "Miner's Keen Eye", "tefo" : "InTe", "level" : 25 
+         , { "spell" : "Miner's Keen Eye (touch)", "tefo" : "InTe", "level" : 25 
            , "mastery" : [ "Penetration" ] 
 	 }
       ]
@@ -725,6 +746,10 @@
 	    , "mastery" : [ "Still Casting" ] 
             , "tefo": "ReCo", "level" : 40
          }
+         , { "possession" : { "art" : "In", "count" : 16, "comment" : "From the Wyrm in Provence.  Not sure about the art." } }
+         , { "possession" : { "art" : "In", "count" : 5, "comment" : "paid for the initiation script" } }
+         , { "possession" : { "art" : "In", "count" : 3, "comment" : "reward to Hiccup" } }
+         , { "possession" : { "art" : "In", "count" : 1, "comment" : "paid for faerie ingredients" } }
       ]
       },
       { "mode" : "Teaching", "season" : "Spring 1238"
@@ -803,6 +828,13 @@
             , "tefo" : "MuIm", "level" : 15
             , "mastery" : [ "Quite Casting" ] 
          }
+	 , { "characteristic" : "Com", "score" : 2, "comment" : "Heroes ritual cast once" }
+         , { "possession" : { "art" : "An", "count" : -2, "comment" : "paid for faerie ingredients" } }
+         , { "possession" : { "art" : "An", "count" : 3, "comment" : "allowance" } }
+         , { "possession" : { "art" : "Au", "count" : 2, "comment" : "old claims" } }
+         , { "possession" : { "art" : "Vi", "count" : 3, "comment" : "allowance" } }
+         , { "possession" : { "art" : "Me", "count" : 16, "comment" : "old claims" } }
+         , { "possession" : { "art" : "Me", "count" : -16, "comment" : "ritual casting" } }
       ]
       },
       { "mode" : "Teaching", "season" : "Spring 1240"
@@ -830,12 +862,16 @@
       { "mode" : "Exposure", "season" : "Winter 1241"
       , "sourceQuality" : 2
       , "narrative" : "Fixate AC"
-      , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } ]
+      , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 }
+         , { "possession" : { "art" : "Vi", "count" : -6, "comment" : "to fixate arcane connections" } }
+         ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1241"
       , "sourceQuality" : 2
       , "narrative" : "Fan of Summer Breezes CrAu(Ig)19"
-      , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } ]
+      , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
+         , { "possession" : { "art" : "Au", "count" : -2, "comment" : "for the enchantment" } }
+      ]
       },
       { "mode" : "Exposure", "season" : "Summer 1241"
       , "sourceQuality" : 2
@@ -876,8 +912,14 @@
       , "sourceQuality" : 2
       , "narrative" : "Lab Assistance. Longevity Ritual.  Exposure Magic Theory -> 7 (140xp)"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 }
-         , { "aging" : { "longevity" : 22 } 
-         } ]
+         , { "aging" : { "longevity" : 22 } } 
+         , { "possession" : { "art" : "Vi", "count" : 2
+                            , "comment" : "payment to Main for the LR" } }
+         , { "possession" : { "art" : "Pe", "count" : 1
+                            , "comment" : "payment to Main for the LR" } }
+         , { "possession" : { "art" : "Te", "count" : 1
+                            , "comment" : "payment to Main for the LR" } }
+      ]
       },
       { "mode" : "Lab work", "season" : "Autumn 1242"
       , "sourceQuality" : 2
@@ -894,6 +936,8 @@
             , "agingComment" : "No aging. Rolls not recorded"
          } 
          }
+         , { "possession" : { "art" : "Pe", "count" : 1
+	   , "comment" : "allowance (net, paying 1p for faerie ingredients)" } }
       ]
       },
       { "mode" : "Reading", "season" : "Spring 1243"
@@ -981,6 +1025,12 @@
                     , { "ability" : "Parma Magica", "xp" : 5 } 
                     , { "ability" : "Faerie Lore", "xp" : 5 } 
                     , { "confidence" : "Confidence", "points" : 4 }
+                    , { "possession" : { "art" : "Te", "count" : 2
+	              , "comment" : "from Vincenzo's body" } }
+                    , { "possession" : { "art" : "Me", "count" : 12
+	              , "comment" : "salary (4p) and allowance (8p) 1244-47" } }
+                    , { "possession" : { "art" : "Vi", "count" : -4
+	              , "comment" : "Faerie Ingredients 1244-47" } }
 		    ]
       },
       { "mode" : "Reading", "season" : "Summer 1245"
@@ -1045,10 +1095,17 @@
       },
       { "mode" : "Author", "season" : "Autumn 1247"
       , "sourceQuality" : 2
-      , "narrative" : "CrMe rituals x4 for Com to +5; (58xp) Tractatus on Corpus Q14 "
+      , "narrative" : "CrMe rituals x3 for Com to +5; (58xp) Tractatus on Corpus Q14 "
       , "changes" : [ { "ability" : "Latin", "xp" : 2 } 
 	            , { "characteristic" : "Com", "score" : 5 }
-	            , { "possession" : { "name" : "Mentem vis", "art" : "Me",  "count" : -48 } }
+	            , { "possession" : {  "art" : "Me",  "count" : -20, "comment" : "For the Heroes ritual" } }
+	            , { "possession" : {  "art" : "Cr",  "count" : -4, "comment" :  "For the Heroes ritual" } }
+	            , { "possession" : {  "art" : "Vi",  "count" : -14, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "Pe",  "count" : -1, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "In",  "count" : -4, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "Mu",  "count" : -2, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "Te",  "count" : -2, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "art" : "Re",  "count" : -1, "comment" :  "Traded for Mentem for the ritual" } }
                     ]
       },
       { "mode" : "Reading", "season" : "Winter 1248"
@@ -1096,7 +1153,10 @@
             , "agingRollDie" : 0
             , "agingRoll" : -18
             , "agingComment" : "No aging. Die not recorded"
-         } 
+            } 
+         }
+	 , { "possession" : {  "art" : "Me",  "count" : 4
+                               , "comment" :  "Payment from Sean" } 
          } 
       ]
       },
@@ -1280,8 +1340,6 @@
                , "agingComment" : "No aging."
 	    } }
          , { "confidence" : "Confidence", "points" : 2 }
-	 , { "characteristic" : "Per", "score" : 1
-           , "comment" : "Gift of Perception Ritual Twice" }
       ]
       },
       { "mode" : "Vis study", "season" : "Spring 1254"

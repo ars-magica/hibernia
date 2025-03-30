@@ -28,10 +28,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: armchar
+      - name: hArM
         shell: bash
         run: |
-          ./bin/armchar -s Data/hibernia.json
+          ./bin/harm -s Data/hibernia.json
+
+      - name: Setup Python 3.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+      - name: check JSON syntax
+        shell: bash
+        run: |
+            sh bin/syntaxcheck.sh > pages/syntaxcheck.txt
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
@@ -41,7 +51,6 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-
   # Deployment job
   deploy:
     environment:
@@ -53,3 +62,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+
+
