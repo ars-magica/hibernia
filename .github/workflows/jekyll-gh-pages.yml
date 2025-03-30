@@ -31,7 +31,7 @@ jobs:
       - name: hArM
         shell: bash
         run: |
-          ./bin/armchar -s Data/hibernia.json
+          ./bin/harm -s Data/hibernia.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
