@@ -10,6 +10,7 @@
       , "born" : 1192
       , "player" : "George"
       , "charGlance" : { }
+      , "portrait" : "cieran.jpeg"
       , "charData" : 
         { "Size" : 0 
         , "Nationality" : "Irish" 
