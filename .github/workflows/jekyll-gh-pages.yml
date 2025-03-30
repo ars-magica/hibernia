@@ -39,9 +39,19 @@ jobs:
         with:
           source: ./pages/
           destination: ./_site
+
+      - name: Setup Python 3.x
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+          cache: "pip"
+
+      - name: check JSON syntax
+        shell: bash
+        run: |
+            sh bin/syntaxcheck.sh > pages/syntaxcheck.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-
   # Deployment job
   deploy:
     environment:
@@ -53,3 +63,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+
+
