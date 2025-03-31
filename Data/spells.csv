@@ -53,19 +53,17 @@ Piercing the Faerie Veil,,In,,Vi,,20,Per,Conc,Vision,,,,,[ArM5:158]
 Piercing the Magical Veil,,In,,Vi,,20,Per,Conc,Vision,,,,,Custom variant
 Sense of the Lingering Magic,,In,,Vi,,30,,,,,,"Base 10; Per, Hearing (+3); D: Conc (+1);",This spell detects the presence of many magical residues even weak spells ,[ArM5:158]
 Wizard's Communion,,Mu,,Vi,,10,Voice,,,,,,,[ArM:160]
-Fist of Fey Oblivion,,Pe,,Vi,,5,Touch,Mom,Ind,,,,,Custom Variant
-Fist of Magic Oblivion,,Pe,,Vi,,5,Touch,Mom,Ind,,,,,Custom Variant
-Fist of Demon's Oblivion,,Pe,,Vi,,5,Touch,Mom,Ind,,,,,Custom Variant
-Fist of Demon's Oblivion,,Pe,,Vi,,15,Touch,Mom,Ind,,,,,Custom Variant
+Fist of Fey Oblivion,,Pe,,Vi,,,Touch,Mom,Ind,,"Weakens and possibly destroys a demon.  If the spell penetrates the demon’s Magic Resistance, the demon loses Might Score equal to the spell’s level.","Base effect +1 Touch",,Custom Variant
+Fist of Magic Oblivion,,Pe,,Vi,,,Touch,Mom,Ind,,"Weakens and possibly destroys a demon.  If the spell penetrates the demon’s Magic Resistance, the demon loses Might Score equal to the spell’s level.","Base effect +1 Touch",,Custom Variant
+Fist of Demon's Oblivion,,Pe,,Vi,,,Touch,Mom,Ind,,,Touch,Mom,Ind,,"Weakens and possibly destroys a demon.  If the spell penetrates the demon’s Magic Resistance, the demon loses Might Score equal to the spell’s level.","Base effect +1 Touch",,Custom Variant
 Break the Shield,,Pe,,Vi,,10,Touch,Mom,Ind,,,,,[HP:85]
-Circle of Fey Oblivion,,Pe,,Vi,,10,Touch,Mom,Ind,,,,,
-Circle of Demon's Oblivion,,Pe,,Vi,,5,Touch,Mom,Circle,,,,,
-Circle of Demon's Oblivion,,Pe,,Vi,,15,Touch,Mom,Circle,,,,,
-Tearing the Fabric of Imaginem,,Pe,,Vi,,13,Touch,Mom,Ind,,,, like UNRAVELLING THE FABRIC OF (Form) at shorter range cancels spells up to level 28+simple die,
+Circle of Fey Oblivion,,Pe,,Vi,,,Touch,Mom,Ind,,,,,
+Circle of Demon's Oblivion,,Pe,,Vi,,,Touch,Mom,Circle,,,,,
+Tearing the Fabric of Imaginem,,Pe,,Vi,,,Touch,Mom,Ind,,,, like UNRAVELLING THE FABRIC OF (Form) at shorter range cancels spells up to level 28+simple die,
 The Minute of Reckoning,ReVi5,Re,,Vi,,5,Arc,Diam,Ind,,"This spells opens a magical tunnel between the caster and the target.  Spells cast through this tunnel can be up to the level of this spell.  Unlike the Opening the Intangible Tunnel spell, the caster does not need to maintain concentration on this spell; this spell has duration of Diameter. This has advantages (the caster doesn’t need to maintain concentration) and disadvantages (the tunnel cannot be swiftly closed by ceasing to concentrate).  Note that, despite the name of this spell, a Diameter duration spell actually lasts for two minutes.","Base effect, +4 Arcane Connection, +1 Diameter",,[HP:80]
-Opening the Intangible Tunnel,,Re,,Vi,,20,Arc,Conc,Ind,,,,,
-Watching Ward,,Re,,Vi,,20,Touch,Spec,Ind,Ritual,,"Base effect, +1 Touch, Duration is nonstandard",,[ArM5:162]
-Maintaining the Demanding Spell,,Re,,Vi,,21,Touch,Diam,Ind,,,,,[ArM5:162]
-Circular Ward Against Demons,,Re,,Vi,,25,Touch,Ring,Circle,,"All creatures with Infernal Might equal to or less than the level of the spell are unable to enter the circle or harm those within it.  If you cast the spell again, the stronger ring dispels the weaker, regardless of the order of casting. Some magi cast this spell before going to sleep at night. At night, from certain angles, the ring may be seen as a silver-hued dome.","Base Spell",,[ArM5:162]
-Aegis of the Hearth,,Re,,Vi,,30,Touch,Year,Boundary,Ritual,,,,[ArM5:161]
+Opening the Intangible Tunnel,,Re,,Vi,,,Arc,Conc,Ind,,,,,
+Watching Ward,,Re,,Vi,,,Touch,Spec,Ind,Ritual,,"Base effect, +1 Touch, Duration is nonstandard",,[ArM5:162]
+Maintaining the Demanding Spell,,Re,,Vi,,,Touch,Diam,Ind,,,,,[ArM5:162]
+Circular Ward Against Demons,,Re,,Vi,,,Touch,Ring,Circle,,"All creatures with Infernal Might equal to or less than the level of the spell are unable to enter the circle or harm those within it.  If you cast the spell again, the stronger ring dispels the weaker, regardless of the order of casting. Some magi cast this spell before going to sleep at night. At night, from certain angles, the ring may be seen as a silver-hued dome.","Base Spell",,[ArM5:162]
+Aegis of the Hearth,,Re,,Vi,,,Touch,Year,Boundary,Ritual,,,,[ArM5:161]
 Watching Ward,,Re,,Vi,,30,Touch,Spec,Ind,Ritual,,,,[ArM5:162]
