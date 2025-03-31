@@ -72,6 +72,44 @@
    ],
    "futureAdvancement" : [
       { "mode" : "Adventure"
+      , "season" : "Winter 1248"
+      , "sourceQuality" : 10
+      , "changes" : 
+         [ { "ability" : "Swim", "xp": 5 }
+         , { "ability" : "Animal Ken", "xp": 5 }
+         , { "aging" : { "agingRollDie" : 9, "agingROll" : 13 }
+         , { "other" : "decrepitude", "points" : 5 }
+         , { "characteristic" : "Int", "agingPts" : 2 }
+         , { "characteristic" : "Com", "agingPts" : 2 }
+         , { "characteristic" : "Pre", "agingPts" : 2 }
+	 }
+	 }
+         ] 
+      },
+      { "mode" : "Practice"
+      , "season" : "Summer 1248"
+      , "sourceQuality" : 4
+      , "changes" : 
+         [ { "ability" : "Legerdemain", "xp": 4 }
+         ] 
+      },
+      { "mode" : "Exposure"
+      , "season" : "Summer 1248"
+      , "sourceQuality" : 2
+      , "changes" : 
+         [ { "ability" : "Hunt", "xp": 2 }
+         ] 
+      },
+      { "mode" : "Practice"
+      , "season" : "Summer 1248"
+      , "sourceQuality" : 4
+      , "changes" : 
+         [ { "ability" : "Legerdemain", "xp": 4 }
+         ] 
+      }
+   ],
+   "futureAdvancement" : [
+      { "mode" : "Adventure"
       , "season" : "Winter 1247"
       , "sourceQuality" : 10
       , "changes" : 
