@@ -7,6 +7,7 @@
       "quirk" : "Avoids danger, particularly heights.",
       "appearance" : "Slender, charming guy with dark hair. The clothes are clean, but smell of dog."
       , "born" : 1230
+      , "portrait" : "eogan.jpeg"
       , "player" : "George"
       , "charGlance" : { }
       , "charData" : {

@@ -72,6 +72,35 @@
    ],
    "futureAdvancement" : [
       { "mode" : "Adventure"
+      , "season" : "Winter 1247"
+      , "sourceQuality" : 10
+      , "changes" : 
+         [ { "ability" : "Animal Handling", "xp": 5 }
+         , { "ability" : "Animal Ken", "xp": 5 }
+         ] 
+      },
+      { "mode" : "Practice"
+      , "season" : "Spring 1247"
+      , "sourceQuality" : 4
+      , "changes" : 
+         [ { "ability" : "Music", "xp": 4 }
+         ] 
+      },
+      { "mode" : "Exposure"
+      , "season" : "Summer 1247"
+      , "sourceQuality" : 2
+      , "changes" : 
+         [ { "ability" : "Hunt", "xp": 2 }
+         ] 
+      },
+      { "mode" : "Practice"
+      , "season" : "Autumn 1247"
+      , "sourceQuality" : 4
+      , "changes" : 
+         [ { "ability" : "Music", "xp": 4 }
+         ] 
+      },
+      { "mode" : "Adventure"
       , "season" : "Winter 1248"
       , "sourceQuality" : 10
       , "changes" : 
@@ -81,11 +110,11 @@
          , { "other" : "Decrepitude", "points" : 5 }
          , { "characteristic" : "Int", "agingPts" : 2 }
          , { "characteristic" : "Com", "agingPts" : 2 }
-         , { "characteristic" : "Pre", "agingPts" : 2 }
+         , { "characteristic" : "Pre", "agingPts" : 1 }
          ] 
       },
       { "mode" : "Practice"
-      , "season" : "Summer 1248"
+      , "season" : "Spring 1248"
       , "sourceQuality" : 4
       , "changes" : 
          [ { "ability" : "Legerdemain", "xp": 4 }
@@ -99,41 +128,20 @@
          ] 
       },
       { "mode" : "Practice"
-      , "season" : "Summer 1248"
+      , "season" : "Autumn 1248"
       , "sourceQuality" : 4
       , "changes" : 
          [ { "ability" : "Legerdemain", "xp": 4 }
          ] 
-      }
-   ],
-   "futureAdvancement" : [
-      { "mode" : "Adventure"
-      , "season" : "Winter 1247"
-      , "sourceQuality" : 10
-      , "changes" : 
-         [ { "ability" : "Animal Handling", "xp": 5 }
-         , { "ability" : "Animal Ken", "xp": 5 }
-         ] 
-      },
-      { "mode" : "Practice"
-      , "season" : "Summer 1247"
-      , "sourceQuality" : 4
-      , "changes" : 
-         [ { "ability" : "Music", "xp": 4 }
-         ] 
       },
       { "mode" : "Exposure"
-      , "season" : "Summer 1247"
+      , "season" : "Winter 1249"
       , "sourceQuality" : 2
       , "changes" : 
-         [ { "ability" : "Hunt", "xp": 2 }
-         ] 
-      },
-      { "mode" : "Practice"
-      , "season" : "Summer 1247"
-      , "sourceQuality" : 4
-      , "changes" : 
-         [ { "ability" : "Music", "xp": 4 }
+         [ { "ability" : "Awareness", "xp": 2 }
+         , { "aging" : { "agingRollDie" : 6, "agingROll" : 13 } }
+         , { "other" : "decrepitude", "points" : 1 }
+         , { "characteristic" : "Pre", "agingPts" : 1 }
          ] 
       }
    ]
