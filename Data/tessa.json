@@ -110,7 +110,7 @@
          , { "other" : "decrepitude", "points" : 5 }
          , { "characteristic" : "Int", "agingPts" : 2 }
          , { "characteristic" : "Com", "agingPts" : 2 }
-         , { "characteristic" : "Pre", "agingPts" : 2 }
+         , { "characteristic" : "Pre", "agingPts" : 1 }
          ] 
       },
       { "mode" : "Practice"
