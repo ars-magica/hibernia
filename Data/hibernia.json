@@ -3,7 +3,8 @@
    , "seasons" : [ "Summer 1254", "Summer 1255" ]
    , "rootDirectory" : "pages/"
    , "covenantFiles" : [ "Data/elksrun.json" ]
-   , "characterFiles" : [ "Data/cieran.json", "Data/eogan.json", "Data/tessa.json" ]
+   , "characterFiles" : [ "Data/cieran.json", "Data/eogan.json", "Data/tessa.json"
+                        , "Data/rogue.json"  ]
    , "spellFile" : "Data/spells.csv"
    , "weaponFile" : "Data/weapons.csv"
    , "armourFile" : "Data/armour.csv"
