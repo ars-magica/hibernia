@@ -21,7 +21,7 @@
          , "xp" : 75
          }
          , { "virtue" : "Warrior", "cost" : 1 }
-         , { "virtue" : "Great Characteistic", "detail" : "Dex", "multiplicity" : 2, "cost" : 1 }
+         , { "virtue" : "Great Characteristic", "detail" : "Dex", "multiplicity" : 2, "cost" : 1 }
          , { "flaw" : "Small Frame", "cost" : -1 }
          , { "flaw" : "Social handicap", "detail" : "Easily stressed and evasive in social contact", "cost" : -1 }
          , { "flaw" : "Overconfident", "cost" : -1 }
