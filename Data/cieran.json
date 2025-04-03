@@ -42,7 +42,6 @@
          , { "virtue" : "Book Learner", "cost" : 1 }
          , { "virtue" : "Affinity with (art)", "detail" : "Imaginem", "cost" : 1 }
          , { "virtue" : "Skilled Parens", "cost" : 1 }
-         , { "virtue" : "Second Sight", "cost" : 0, "comment" : "From Strong Faerie Blood" }
 
          , { "ptrait" : "Villager" , "score" : 2 }
          , { "ptrait" : "Carefree" , "score" : 3 }
