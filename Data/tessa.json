@@ -107,7 +107,6 @@
          [ { "ability" : "Swim", "xp": 5 }
          , { "ability" : "Animal Ken", "xp": 5 }
          , { "aging" : { "agingRollDie" : 9, "agingROll" : 13 } }
-         , { "other" : "Decrepitude", "points" : 5 }
          , { "characteristic" : "Int", "agingPts" : 2 }
          , { "characteristic" : "Com", "agingPts" : 2 }
          , { "characteristic" : "Pre", "agingPts" : 1 }
@@ -140,7 +139,6 @@
       , "changes" : 
          [ { "ability" : "Awareness", "xp": 2 }
          , { "aging" : { "agingRollDie" : 6, "agingROll" : 13 } }
-         , { "other" : "decrepitude", "points" : 1 }
          , { "characteristic" : "Pre", "agingPts" : 1 }
          ] 
       }
