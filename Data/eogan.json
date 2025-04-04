@@ -108,6 +108,7 @@
          [ { "ability" : "Faerie Lore", "spec" : "Dark Fae", "xp": 5 }
          , { "ability" : "Magic Lore", "spec" : "Ancient Myth", "xp": 5 }
 	 , { "ability" : "Animal Ken", "xp": 3 }
+         , { "confidence" : "Confidence", "points" : 2 }
          ] 
       },
    ]
