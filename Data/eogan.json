@@ -99,5 +99,16 @@
          ] 
       }
    ],
-   "futureAdvancement" : [ ]
+   "futureAdvancement" : [
+      { "mode" : "Adventure"
+      , "season" : "Summer 1254"
+      , "sourceQuality" : 13
+      , "narrative" : "The Unicorn.  SQ10 + Independent Study"
+      , "changes" : 
+         [ { "ability" : "Faerie Lore", "spec" : "Dark Fae", "xp": 5 }
+         , { "ability" : "Magic Lore", "spec" : "Ancient Myth", "xp": 5 }
+	 , { "ability" : "Animal Ken", "xp": 3 }
+         ] 
+      },
+   ]
 }
