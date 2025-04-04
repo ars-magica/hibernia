@@ -110,6 +110,6 @@
 	 , { "ability" : "Animal Ken", "xp": 3 }
          , { "confidence" : "Confidence", "points" : 2 }
          ] 
-      },
+      }
    ]
 }
