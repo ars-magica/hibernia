@@ -10,5 +10,12 @@
    },
    "history" : [
    ],
-   "plan" : [ ]
+   "plan" : [ 
+      { "season" : "Summer 1217"
+      , "joining" : [ "Cieran" ]
+      },
+      { "season" : "Summer 1254"
+      , "joining" : [ "Eogan mac Eogan" ]
+      }
+   ]
 }
