@@ -1289,8 +1289,9 @@
       ]
       },
       { "mode" : "Reading", "season" : "Winter 1253"
-      , "sourceQuality" : 13
-      , "narrative" : "Winter/Spring 1253: 13x2 Rego ; L20Q9 + Book Learner + Correspondent (88->114).  Aging roll -21"
+      , "sourceQuality" : 9, "bonusQuality" : 4
+      , "narrative" : "Bonus SQ +4 from Book Learner and Correspondent (88->101).  Aging roll -21"
+      , "usesBook" : [ "RegoL20Q9" ]
       , "changes" : [ { "art" : "Rego", "xp" : 13 } 
             , { "aging" : { "deltaYounger" : 1
                , "agingRollDie" : -1
@@ -1301,8 +1302,9 @@
       ]
       },
       { "mode" : "Reading", "season" : "Spring 1253"
-      , "sourceQuality" : 13
-      , "narrative" : "Winter/Spring 1253: 13x2 Rego ; L20Q9 + Book Learner + Correspondent (88->114)"
+      , "sourceQuality" : 9, "bonusQuality" : 4
+      , "narrative" : "Bonus SQ +4 from Book Learner and Correspondent (101->114)"
+      , "usesBook" : [ "RegoL20Q9" ]
       , "changes" : [ { "art" : "Rego", "xp" : 13 } ]
       },
       { "mode" : "Lab Work", "season" : "Summer 1253"
