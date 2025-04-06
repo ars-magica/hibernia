@@ -1,4 +1,3 @@
-Name,TeFo,Te,Req(Te),Fo,Req(Fo),Lvl,R,D,T,Special,Description,Design,Comment,Ref
 Restoration of the Defiled Body,CrCo25,Cr,,Co,,25,Touch,Mom,Ind,Ritual,"Removes the crippling or malignant aftereffects of any injury, poison, or disease, or of premature aging. The effects of natural aging cannot be undone by this or any spell. This spell does not heal wounds, only extra effects.","Base 20, +1 Touch",,[ArM5:129]
 Wound without Cause,PeCo20,Pe,,Co,,20,Touch,Mom,Ind,,The target takes a heavy wound,"Base 15, touch +1",,Custom
 Spasms of the Uncontrolled Body,ReCo5,Re,,Co,,5,Touch,Sun,Ind,,"One of the target’s hands spasms, causing him to drop anything he is holding in it. It keeps spasming for as long as you concentrate.","Base 2, +1 Touch, +2 Sun",,Custom [ArM:134]
