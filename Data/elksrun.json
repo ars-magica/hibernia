@@ -5,8 +5,10 @@
       , "tribunal" : "Hibernia"
       , "appearance" : "Situated in a warm valley in Munster"
       , "founded" : 1170
-      , "data" : {
+      , "data" : { }
       }
+   , "state" : {
+      "librarycsv" : "books.csv"
    },
    "history" : [
    ],
