@@ -1,4 +1,4 @@
-Art,Creo      , L15Q14 , Growing, Healing, and Creation , ,,1,
+Art,Creo      , L15Q14 , "Growing, Healing, and Creation" , ,,1,
 Art,Creo      , L5Q15  , An Apprentice Primer in Creo , Sabastian ex Bonisagus , ,1,
 Art,Creo      , Q14    , Hibernian Musings on the Hermetic Techniques - Volume 1 Creo , Maine Chleitigh ex Bonisagus , ,2,
 Art,Creo      , Q11    , On the Spark , Igneous Drake , From 1238 , 2 ,
@@ -35,7 +35,7 @@ Art,Aquam     , L15Q14, The Fluid Element , , , To arrive end 1243,
 Art,Aquam     , L7Q18  , The Element of Water , , Root of the art , 1,
 Art,Aquam     , L5Q15  , An Apprentice Primer in Aquam , Sabastian ex Bonisagus , ,1,
 Art,Aquam     ,  Q14   , Hibernian Musings on the Hermetic Arts - Volume 2 Aquam , Maine Chleitigh ex Bonisagus , ,2,
-Art,Auram     , L(11+2d3)Q(27+d4-lvl)  ,  , , From Tolosa Partage , from Summer 1254 ,
+Art,Auram     ,  ,  , , From Tolosa Partage , from Summer 1254: Stats to be determind L(11+2d3)Q(27+d4-lvl) ,
 Art,Auram     , L6Q19  , The Element of Air , Tempestina of Merinita , Root of the art ,1,
 Art,Auram     , L5Q15  , An Apprentice Primer in Auram , Sabastian ex Bonisagus , ,1,
 Art,Auram     ,  Q14   , Hibernian Musings on the Hermetic Arts - Volume 3 Auram , Maine Chleitigh ex Bonisagus , ,2,
@@ -53,7 +53,7 @@ Art,Herbam    , L15Q13 , Wood, Tree, and Growth , , , arrived end 1243,
 Art,Herbam    , L6Q21  , Roots First , Horatio of Bonisagus,"Root of the art.  Written by a Diedne magus, this book was saved during the Schism book, and a clever magus recognising its quality rebound it with a false cover sheet. It was widely copied and distributed and gained a reputation as a Root of the Art, and nobody seems to know its dark secret.",1,
 Art,Herbam    , L5Q15  , An Apprentice Primer in Herbam , Sabastian ex Bonisagus , ,1,
 Art,Herbam    , Q14    , Hibernian Musings on the Hermetic Arts - Volume 5 Herbam , Maine Chleitigh ex Bonisagus , ,2,
-Art,Herbam    , Q12    , , , In Gaelic.  From Panchia A'27 ,1,
+Art,Herbam    , Q12    , , ,From Panchia A'27 ,1,Gaelic
 Art,Herbam    , Q8     , Roots and Stems , author unknown , From Midsummer Fair 1244 , 1 ,
 Art,Ignem     , L14Q11 , Fire as a Tool of Persuasion , Igneous Drake ex Flambau ,In to library Winter 1226,1,
 Art,Ignem     , L8Q15  , Burning for Beginners , Elaine of Flambeau , Root of the art ,1,
@@ -93,13 +93,13 @@ Ability,Magic Theory  , Q14    , Magic Theory in Relation to Talisman , Maine Ch
 Ability,Magic Theory  , Q13    , Lesser is Greater ,      , [Folio-1109]() from Autumn 1226 ,1,
 Ability,Magic Theory  , Q12    , Magic Theory in relation to scribing hermetic documents ,Ibhan the scribe,  ,1,
 Ability,Magic Theory  , Q12    , Laboratories, Familiars and Apprentices ,Ibhan the scribe,  ,1,
-Ability,Finesse       , L5Q12+D4 , , , Midsummer Fair 1244 for 19p vis (7 animal and 12 aquam) , 1 ,
+Ability,Finesse       , , , , Midsummer Fair 1244 for 19p vis (7 animal and 12 aquam). Stats TBD: L5Q12+D4, 1 ,
 Ability,Finesse       , Q12    , Fundamental Fast Casting , Kallias of Tremere , This copy was made 1217 by the chief librarian to replace the below. ,1,
 Ability,Finesse       , Q11    , Fundamental Fast Casting , Kallias of Tremere , Published only in 1209, one of the earliest works of the young Kallias, the noted Spell Master author of House Tremere. This copy is badly damaged, a gift Lucas brought with him from Lambaird. ,1,
 Ability,Penetration   , L5Q11    , Ultor , , From Autumn 1228 - bought for 25pvf ,1,
 Ability,Penetration   , Q14    , The Penetrating Fire , Maine Chleitigh ex Bonisagus ,,1,
-Ability,Penetration   , Q12    , Penetration , Astrid ,In Gaelic ,1,
-Ability,Penetration   , Q12    , More Penetration , Astrid ,In Gaelic - bought Autumn 1232,1,
+Ability,Penetration   , Q12    , Penetration , Astrid ,,1,Gaelic 
+Ability,Penetration   , Q12    , More Penetration , Astrid,"bought Autumn 1232",1,Gaelic 
 Ability,Penetration   , Q11    , Increasing the Sting , Elaine of Flambeau , From Lambaird A'27 ,1,
 Ability,Penetration   , Q11    , Fire through the Parma , Elaine of Flambeau ,,1,
 Ability,Hermes Lore    , Q10   , , Lost 1223 - Returned 1230 from Herrick ,,1,
@@ -109,10 +109,6 @@ Ability,Code of Hermes , L3Q14 , The Apprentice's Guide to the Code , Lugardis o
 Ability,Code of Hermes , Q11   , Wizard's War.  The Most Notable Cases. , Caelus of Flambeau , With a dedication to Lugardis from her pater, Justitiaan of Magvillus, dated 1158 ,1, 
 Ability,Cult of Mercury Lore    , L4Q10    , Primer after Priamitus ,  , Lost 1223 - Returned 1230 from Herrick ,1,
 Ability,Servant of the People lore , L4Q14    , Service to the Common People , Jerome ex Miscellanea , ,1,
-Ability,Puissant SoCP Lore , +14 , ? , Jerome ex Miscellanea , Initiation script.  Cieran keeps this for himself unless somebody claims it. Only Cieran knows what the scroll is. See [SoCP](/Cast/Servants of the People) ,1,
-Ability,Good Teacher , +3 , ? , Jerome ex Miscellanea , Initiation script.  Cieran keeps this for himself unless somebody claims it. Only Cieran knows what the scroll is. See [SoCP](/Cast/Servants of the People) ,1,
-Ability,Independant Study , +1 , ? , Maine ex Bonisagus , Initiation script. . See [SoCP](/Cast/Servants of the People) ,1,
-Ability,Cautious Sorcerer , +6 , ? , SOCP , Initiation script.  Cieran keeps this for himself unless somebody claims it. See [SoCP](/Cast/Servants of the People) ,1,
 Ability,Faerie Lore, L3Q10  ,                                 , ,,1,
 Ability,Faerie Lore, Q14    , The Making of The Giants' Causeway            , Oswald of Bonisagus ,,1,
 Ability,Faerie Lore, Q12    , The Fair Folk    , Astrið , Bought Autumn 1232 ,1,
@@ -123,7 +119,7 @@ Ability,Faerie Lore, Q8     , Faeries of the Irish Waterways  , Kevin the Mercha
 Ability,Faerie Lore, Q8     , The Wee Folk at Play            , Kevin the Merchant of Elk's Run , Winter 1237 ,1,
 Ability,Faerie Lore, Q7     ,"The Quest through Elysium , Quendalon filius Merinita , From Seafraid's estate.  He bought it at the Midsummer Fair in the Greater Alps 1226.  Allegedly, this is an original manuscript, and it looks the age. Asking price 50pvv. Bought for 13pvv.",1,
 Ability,Magic Lore (Legends)      , L5Q12     , The Uncaring Masters of Creation , ,,1,
-Ability,Magic Lore       , Q10    , , ,in Gaelic, bought from from Norse traders 1221,1,
+Ability,Magic Lore       , Q10    , , ,"bought from from Norse traders 1221",1,Gaelic
 Ability,Magic Lore       , Q9     , The Spirits of our Forefathers , Caelan of Gort ,,1,
 Ability,Magic Lore       , Q8     , Primal Spirits of the Sea, ,bought from from Norse traders 1224,1,
 Ability,Magic Lore , Q8  , Ancient Creatures  , Tug of Criamon , Traded from Carolus of Criamon in 1244 ,  1 ,
@@ -158,12 +154,12 @@ Ability,Limerick Lore    , Q7     , , ,,1,
 Ability,Limerick Lore    , Q9     , , ,,1,
 Ability,Stonehenge Lore  , Q9     , , ,,1,
 Ability,London Lore      , Q6     , , ,,1,
-Ability,Irish Sea Lore   , Q10    , Our Friends Overseas , Brethran the Wise , Written 978 in Gaelic, Brethran discusses mainly the trade routes across and ports surrounding the Irish sea. - lost 1223 - returned 1230 from Oswald ,1,
-Ability,Irish Sea Lore , L4Q18 , Gaelic , , from Norse Traders 1223 ,1,
+Ability,Irish Sea Lore   , Q10    , Our Friends Overseas , Brethran the Wise , Written 978 in Gaelic, Brethran discusses mainly the trade routes across and ports surrounding the Irish sea. - lost 1223 - returned 1230 from Oswald ,1,Gaelic
+Ability,Irish Sea Lore , L4Q18 , , , from Norse Traders 1223 ,1,Gaelic 
 Ability,Irish Sea Lore   , Q14    , , ,from Norse traders 1221,1,
 Ability,Loch Leglean Lore , Q9    , , ,,1,
 Ability,Isle of Mann Lore , Q6     , The Calamity of Mann , Uther Aix ex Tytalus , Uther Aix was the one surviving magus from the last attempt to found a covenant on the Isle of Mann. He wrote down the little he got a chance to see on the island. The last chapter is, unsurprisingly, an apocalyptic horror story. This last chapter is quite a good read, just not very educational.  Evidently, Uther was a better storyteller than teacher. ,1,
-Ability,Norway Lore      , L2Q14  , Tales from The East , Brethran the Wise , Written in Gaelic towards the end of the 10th Century, based on stories told by Norwegian traders.  Brethran himself never saw Norway. ,1,
+Ability,Norway Lore      , L2Q14  , Tales from The East , Brethran the Wise , Written in Gaelic towards the end of the 10th Century, based on stories told by Norwegian traders.  Brethran himself never saw Norway. ,1,Gaelic
 Ability,Norway Lore      , L4Q14  ,  classic Latin traveller's account from Thule (area Lore) , , from Norse traders 1222 ,1,
 Ability,Animal Handling     , Q11    , Dogs of Hibernia                , Unknown , An illustrated text of various dog breeds and the best uses of their natural abilities ,1,
 Ability,Artes Liberales, Q14   , De inventione                                     , Priscian , Comprised of three tractatus of the same quality - Cherished item ,1,
@@ -172,8 +168,8 @@ Ability,Artes Liberales, Q8    , Accurate Calculation , Kevin the Merchant , Aut
 Ability,Bargain             , Q8     , Tricks of the Trade , Kevin the Merchant of Elk's Run, Autumn 1237  ,1,
 Ability,Bargain             , Q8     , Buy Low, Sell High  , Kevin the Merchant of Elk's Run, Winter 1238 ,1,
 Ability,Brehon Law          , Q9     ,                                 ,                   ,              ,1,
-Ability,Brehon Law          , Q7     , Cattle Raids  , Conley Fionn , Gaelic 1091 ,1,
-Ability,Brehon Law          , Q7     , Blood Hunts   , Conley Fionn , Gaelic 1093 ,1,
+Ability,Brehon Law          , Q7     , Cattle Raids  , Conley Fionn , Gaelic 1091 ,1,Gaelic
+Ability,Brehon Law          , Q7     , Blood Hunts   , Conley Fionn , Gaelic 1093 ,1,Gaelic
 Ability,Church Lore         , L4Q7   , The Book Of God’s Way (Liber Viarum Dei)          , Elizabeth of Schönau ,,1,
 Ability,Church Lore         , L3Q3   , The Bible                     , Various Authors   ,              ,1,
 Ability,Church Lore         , L2Q10  ,                                 ,                   ,              ,1,
@@ -199,10 +195,10 @@ Ability,Theology                          , Q11   , The Book Of Life’s Merits 
 Ability,Theology            , Q7     , Thomas Aquinas                , Pierrhan O'Coffer ,              ,1,
 Ability,Philosophiae (moral)              , L6Q9  , Nicomachean Ethics                                , Aristotle, transl. by Robert Grosseteste ,Cherished item ,1,
 Ability,Philosophiae (metaphysics)        , Q9    , Questiones Naturales                              , Adelard of Bath ,,1,
-Ability,Philosophy (Natural Philosophy)   , L6Q12   , Physics , Aristotle , 8 books in Ancient Greek ,1,
-Ability,Philosophy , Q12 , Metaphysics book 1 , Aristotle , 1st of 3 books in Ancient Greek  ,1,
-Ability,Pagan Theology , Q12 , Metaphysics book 2 , Aristotle , 2nd of 3 books in Ancient Greek ,1,
-Ability,Philosophy , Q12 , Metaphysics book 3 , Aristotle , 3rd of 3 books in Ancient Greek ,1,
-Ability,Artes Liberales , Q12 , Prior Analytics , Aristotle , In Ancient Greek ,1,
-Ability,Artes Liberales , Q12 , Posterior Analytics , Aristotle , In Ancient Greek ,1,
-Ability,Artes Liberales , Q12 , On Sophistical Refutation , Aristotle , In Ancient Greek ,1,
+Ability,Philosophy (Natural Philosophy)   , L6Q12   , Physics , Aristotle , 8 books in Ancient Greek ,1,Ancient Greek
+Ability,Philosophy , Q12 , Metaphysics book 1 , Aristotle , 1st of 3 books in Ancient Greek  ,1,Ancient Greek
+Ability,Pagan Theology , Q12 , Metaphysics book 2 , Aristotle , 2nd of 3 books in Ancient Greek ,1,Ancient Greek
+Ability,Philosophy , Q12 , Metaphysics book 3 , Aristotle , 3rd of 3 books in Ancient Greek ,1,Ancient Greek
+Ability,Artes Liberales , Q12 , Prior Analytics , Aristotle ,,1,Ancient Greek
+Ability,Artes Liberales , Q12 , Posterior Analytics , Aristotle ,,1,Ancient Greek 
+Ability,Artes Liberales , Q12 , On Sophistical Refutation , Aristotle ,,1,Ancient Greek 
