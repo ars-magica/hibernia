@@ -870,7 +870,8 @@
       , "sourceQuality" : 2
       , "narrative" : "Fan of Summer Breezes CrAu(Ig)19"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
-         , { "possession" : { "art" : "Au", "count" : -2, "comment" : "for the enchantment" } }
+         , { "possession" : { "art" : "Au", "count" : -2
+              , "comment" : "for the enchantment" } }
       ]
       },
       { "mode" : "Copying", "season" : "Summer 1241"
@@ -1286,8 +1287,8 @@
                     , { "ability" : "Latin", "xp" : 2 }
                     , { "ability" : "Hermes Lore", "xp" : 4 }
                     , { "confidence" : "Confidence", "points" : 5 }
-                    , { "possession" : { "art" : "Me", "count" : 5
-		        , "comment" : "from the dark faerie in Provence" } } 
+                    , { "possession" : { "art" : "Me", "count" : 2
+		        , "comment" : "from the dark faerie in Provence, net reimbursed 3p to Tiou" } } 
                     , { "possession" : { "art" : "Im", "count" : 4
 		        , "comment" : "from the dark faerie in Provence" } } 
                     , { "possession" : { "art" : "Te", "count" : 3
@@ -1375,7 +1376,8 @@
       { "mode" : "Opening Arts", "season" : "Winter 1255"
       , "sourceQuality" : 2
       , "narrative" : "Open arts for Luciu"
-      , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } ]
+      , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 }
+      ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1255"
       , "sourceQuality" : 2
