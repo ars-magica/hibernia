@@ -887,14 +887,14 @@
       , "sourceQuality" : 2
       , "narrative" : "Horror Cabinet Spell  2xp Exposure Magic Theory -> 136xp (score 6)(covenant service).  Lab Total Cr(Re)Im 61 (spells) Experiment adds 7+ with maximum risk Nocturnal +2 gives Rolled *no benefit* lab total 63(66) gaining 28/31 points."
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
-         , { "other" : "Warping", "points" : 1, "comment" : "One botch some time before 1242." 
+         , { "other" : "Warping", "points" : 1
+              , "comment" : "One botch some time before 1242."  }
          , { "possession" : { "art" : "Cr", "count" : 2 } }
          , { "possession" : { "art" : "An", "count" : 1 } }
          , { "possession" : { "art" : "An", "count" : -1, 
              "comment" : "faerie rituals" } }
          , { "possession" : { "art" : "Ig", "count" : 3 } }
          , { "possession" : { "art" : "Me", "count" : 8 } }
-         }
       ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1242"
