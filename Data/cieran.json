@@ -1262,6 +1262,8 @@
                , "agingComment" : "No aging."
 	    }
 	    }
+        , { "possession" : { "art" : "Im", "count" : 12
+		        , "comment" : "Allowance" } } 
       ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1252"
@@ -1377,6 +1379,14 @@
       , "sourceQuality" : 2
       , "narrative" : "Open arts for Luciu"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 }
+        , { "possession" : { "art" : "In", "count" : -3
+		        , "comment" : "Correction" } } 
+        , { "possession" : { "art" : "Mu", "count" : 2
+		        , "comment" : "Correction" } } 
+        , { "possession" : { "art" : "An", "count" : -1
+		        , "comment" : "Correction" } } 
+        , { "possession" : { "art" : "Vi", "count" : 2
+		        , "comment" : "Correction" } } 
       ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1255"
