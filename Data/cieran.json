@@ -1387,6 +1387,11 @@
 		        , "comment" : "Correction" } } 
         , { "possession" : { "art" : "Vi", "count" : 2
 		        , "comment" : "Correction" } } 
+            , { "aging" : { "deltaYounger" : 1
+               , "agingRollDie" : 0
+               , "agingRoll" : -1
+               , "agingComment" : "No aging."
+	    } }
       ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1255"
@@ -1405,11 +1410,6 @@
             , "tefo" : "ReVi", "level" : 20 
             , "mastery" : [ "Quiet Casting" ]
          }
-            , { "aging" : { "deltaYounger" : 1
-               , "agingRollDie" : 0
-               , "agingRoll" : -1
-               , "agingComment" : "No aging."
-	    } }
       ]
       },
       { "mode" : "Lab Work", "season" : "Summer 1255"
@@ -1428,6 +1428,17 @@
             , "tefo" : "CrIm", "level" : 5
             , "mastery" : [ "Quiet Casting" ]
          }
+      ]
+      },
+      { "mode" : "Teaching", "season" : "Winter 1255"
+      , "sourceQuality" : 2
+      , "narrative" : "Teaching Luciu"
+      , "changes" : [ 
+           { "ability" : "Teaching", "xp" : 2 }
+            , { "aging" : { "deltaYounger" : 1
+               , "agingRollDie" : 10
+               , "agingComment" : "No aging."
+	    } }
       ]
       }
    ]
