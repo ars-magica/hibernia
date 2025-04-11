@@ -1372,9 +1372,14 @@
                     , { "possession" : { "art" : "Im", "count" : -5
 		        , "comment" : "vis study" } } ]
       },
-      { "mode" : "Lab Work", "season" : "Winter 1255"
+      { "mode" : "Opening Arts", "season" : "Winter 1255"
       , "sourceQuality" : 2
-      , "narrative" : "  ReVi Spells; No Aging (rolled 0)"
+      , "narrative" : "Open arts for Luciu"
+      , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } ]
+      },
+      { "mode" : "Lab Work", "season" : "Spring 1255"
+      , "sourceQuality" : 2
+      , "narrative" : "ReVi Spells; No Aging (rolled 0). Train Luciu in Magic Theory (SQ 15)."
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 }
          , { "spell" : "Circular Ward Against Demons",
             "tefo" : "ReVi", "level" : 25 
@@ -1395,7 +1400,7 @@
 	    } }
       ]
       },
-      { "mode" : "Lab Work", "season" : "Spring 1255"
+      { "mode" : "Lab Work", "season" : "Summer 1255"
       , "sourceQuality" : 3
       , "narrative" : "CrIm spells (376xp).  Studious Doppleganger w/o text."
       , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
