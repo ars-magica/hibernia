@@ -1429,7 +1429,7 @@
          , { "confidence" : "Confidence", "points" : 1 }
       ]
       },
-      { "mode" : "Reading", "season" : "Summert 1255"
+      { "mode" : "Reading", "season" : "Summer 1255"
       , "comment" : "Reads the new Q12 Tractatus from Vigil"
       , "bonusQuality" : 1
       , "changes" : [ 
