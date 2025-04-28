@@ -1433,7 +1433,7 @@
       , "comment" : "Reads the new Q12 Tractatus from Vigil"
       , "bonusQuality" : 1
       , "changes" : [ 
-           { "ability" : "Imaginem", "xp" : 16 }
+           { "art" : "Imaginem", "xp" : 16 }
       ]
       },
       { "mode" : "Author", "season" : "Autumn 1255"
