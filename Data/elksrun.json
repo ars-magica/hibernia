@@ -24,18 +24,18 @@
           , "comment" : "Available books at Vigil: Three imaginem titles at Q8/Q9/Q12; Herbam Tractatus Q12, Q11, Q8; Magic Theory Tractactus Q11, Q9, Q9"
           },
           { "title" : "Aegis Failing"
-	     , "narrative" :  "Cieran is guilt-ridden and realises the day before the winter solstice that he cannot cast the Aegis. He sneaks out, taking silver and some utilities."
-	     , "comment" : 
-		[ "2x Leprechauns might 15 have invaded"
-	        , "New Aegis L30 Penetration 27"
-		]
+             , "narrative" :  "Cieran is guilt-ridden and realises the day before the winter solstice that he cannot cast the Aegis. He sneaks out, taking silver and some utilities."
+             , "comment" : 
+                [ "2x Leprechauns might 15 have invaded"
+                , "New Aegis L30 Penetration 27"
+                ]
           },
           { "title" : "Cieran's Penance in Waterford", "SQ" : 7
-	     , "comment" : 
-		[ "Aine also gets a Lvl 1 Local Reputation as a Healer"
-		   , "Cieran gets 4 exp in Local Help Druid Reputation"
-		   , "Mine Collapse 7 exp Cieran 2 confidence Aine and Sean 1 Confidence"
-		]
+             , "comment" : 
+                [ "Aine also gets a Lvl 1 Local Reputation as a Healer"
+                   , "Cieran gets 4 exp in Local Help Druid Reputation"
+                   , "Mine Collapse 7 exp Cieran 2 confidence Aine and Sean 1 Confidence"
+                ]
           }
 
        ]
