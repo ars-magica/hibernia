@@ -17,6 +17,7 @@
         , "Alma Mater" : "Stonehenge"
         , "Covenant" : "Elk's Run"
         , "Saga" :  "Contested Lands"
+        , "Casting Sigil" :  "A gentle gust of air"
         }
       },
    "pregameAdvancement" : [
@@ -130,7 +131,7 @@
          , { "possession" : { "weapon" : [ "Longbow" ] } }
          , { "possession" : { "weapon" : [ "Dagger" ] } }
          , { "possession" : { "weapon" : [ "Quarterstaff" ] } }
-         , { "possession" : { "weapon" : [ "Writing Materials" ] } }
+         , { "possession" : { "name" : "Writing Materials" } }
          , { "combat" : { "weapon" :  "Longbow" } }
          , { "combat" : { "weapon" :  "Dodge" } }
          , { "combat" : { "weapon" :  "Fist"  } }
@@ -164,8 +165,8 @@
       , "changes" : 
          [ { "art" : "Terram", "xp": 18, "levelCap" : 8 }
 	   , { "possession" : { "lab" : 
-              { "name" : "Cieran's WOrkshop"
-              , "description" : "A large house in the village, with living quarters and a workshop serving both as an Hermetic lab and a fletcher's workshop."
+              { "name" : "Cieran's Workshop"
+              , "narrative" : "A large house in the village, with living quarters and a workshop serving both as an Hermetic lab and a fletcher's workshop."
               , "state" : {
 	         "aura" : 8,
                  "virtues" : [
@@ -177,6 +178,7 @@
 		        ]
                     },
                     { "name" : "Servant"
+                    , "narrative" : "Originally, one of the Brigands from Clon mac Noise. Selected the most Intelligent one."
                     , "bonus" : 
 	                [ { "name" : "Aestetics", "score" : 1 }
 	                , { "name" : "Safety", "score" : 1 }
@@ -184,35 +186,45 @@
 		        ]
                     },
                     { "name" : "Safe Cauldron"
+                    , "comment" : "Magic Item from Folio-1109 installed Spring 1227"
                     , "bonus" : 
 	                [ { "name" : "General Quality", "score" : 1 }
 		        , { "name" : "Activity", "specialisation" : "Experimentation",  "score" : 1 }
 		        ]
                     },
                     { "name" : "Precious Ingredients"
+                    , "comment" : [ "From 1227"
+		        , "The virtue grants +1 Longevity ritual, but this is suspended to allow for use of the Bookstand of Hespera."
+                    ]
                     , "bonus" : 
 	                [ { "name" : "General Quality", "score" : 1 }
 	                , { "name" : "Upkeep", "score" : 2 }
 		        ]
-		        , "comment" : "+1 Longevity ritual, not used"
                     },
                     { "name" : "Major Feature: Antechamber"
+                    , "narrative" : "The Antechamber is actually a small courtyard which can be accessed only through the sanctum."
+                    , "comment" : "From 1228"
                     , "bonus" : 
 	                [ { "name" : "Aestetics", "score" : 2 }
 		        , { "name" : "Activity", "specialisation" : "Spells",  "score" : 3 }
 		        ]
                     },
                     { "name" : "Major Focus: Antechamber"
+                    , "comment" : "From 1228"
                     , "bonus" : 
 	                [ { "name" : "General Quality", "score" : -2 }
 		        , { "name" : "Activity", "specialisation" : "Spells",  "score" : 4 }
 		        ]
                     },
                     { "name" : "Hermetic Chamber Pot"
+                    , "comment" : "From 1235"
                     , "bonus" : 
 	                [ { "name" : "Health", "score" : 1 } ]
                     },
                     { "name" : "Faerie Ingredients"
+                    , "comment" : [ "From 1238"
+                       , "Provides +1 Experimentation and +1 appropriate specialisation, which is also taken for experimentation."
+                    ]
                     , "bonus" : 
 	                [ { "name" : "Warping", "score" : 1 }
 	                , { "name" : "General Quality", "score" : 1 }
@@ -220,7 +232,8 @@
 		        , { "name" : "Activity", "specialisation" : "Experimentation",  "score" : 2 }
 		        ]
                     },
-                    { "name" : "Magical Heating  "
+                    { "name" : "Magical Heating"
+                       , "narrative" : "Fan of Summer Breezes"
                     , "bonus" : 
 	                [ { "name" : "Health", "score" : 1 }
 	                , { "name" : "Aestetics", "score" : 1 }
@@ -473,8 +486,12 @@
       , "changes" : [ { "art" : "Mentem", "xp" : 16 } ]
       },
       { "mode" : "Lab Work", "season" : "Winter 1227"
-      , "sourceQuality" : 2, "bonusQuality" : 1
-      , "narrative" : "Training for Hiccup in Magic Theory.  (SQ 8 for Hiccup) Create Safe Cauldron. Using Folio-1109 for lab text. Exposure 2xp Magic Theory. Bonus XP in Hermes Lore. Using bookstand of Hespera"
+      , "sourceQuality" : 2
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
+      , "narrative" : [ "Training for Hiccup in Magic Theory (SQ 8 for Hiccup)."
+                      , "Create Safe Cauldron, using Folio-1109 for lab text and bookstand of Hespera"
+      ]
+      , "comment" : [ "Exposure 2xp Magic Theory. Bonus XP in Hermes Lore." ]
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
                     , { "ability" : "Hermes Lore", "xp" : 1 } 
                     , { "possession" : { "art" : "Cr", "count" : -3
@@ -530,7 +547,8 @@
       , "changes" : [ { "art" : "Corpus", "xp" : 19 } ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1229"
-      , "sourceQuality" : 3
+      , "sourceQuality" : 2
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Folio bonus in Hermes Lore" }
       , "narrative" : "Training for Hiccup in Magic Theory.  (SQ 8 for Hiccup) Invent spells from Folio. Bonus XP in Hermes Lore"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
                     , { "ability" : "Hermes Lore", "xp" : 1 } 
@@ -759,7 +777,7 @@
       , "sourceQuality" : 9
       , "narrative" : " 52->64 "
       , "changes" : [ { "art" : "Rego", "xp" : 12 } 
-         , { "possession" : { "name" : "Weightless Chain (Protection 9, Load 2)"
+         , { "possession" : { "armour" : [ "Weightless Chain (Protection 9, Load 2)" ]
                             , "comment" : "made by Hiccup" } }
          , { "possession" : { "art" : "Te", "count" : -5, "comment" : "enchantments" } }
       ]
@@ -887,7 +905,7 @@
       ]
       },
       { "mode" : "Lab Work", "season" : "Autumn 1239"
-      , "sourceQuality" : 17
+      , "bonusQuality" : { "sourceBonus" : 15, "bonusSource" : "Discovery from Experimentation" }
       , "narrative" : "Gift of Quickness. Experimentation. Discovery (15xp in MT). Magi Theory to 126xp"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 17 } 
          , { "spell" : "Gift of Quickness (personal range)"
@@ -956,7 +974,7 @@
       },
       { "mode" : "Copying", "season" : "Summer 1241"
       , "sourceQuality" : 2
-      , "narrative" : "Copy lab tests (covenant service)  "
+      , "narrative" : "Copy lab tests (covenant service)."
       , "changes" : [ { "ability" : "Latin", "xp" : 2 } ]
       },
       { "mode" : "Reading", "season" : "Autumn 1241"
@@ -1122,7 +1140,8 @@
 		    ]
       },
       { "mode" : "Reading", "season" : "Summer 1245"
-      , "sourceQuality" : 10, "bonusQuality" : 1
+      , "sourceQuality" : 10
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Summa; capped at 19 +1½xp for correspondent (191½xp) "
       , "changes" : [ { "art" : "Imaginem", "xp" : 13, "levelCap" : 19 } 
                     , { "art" : "Imaginem", "xp" : 1 } ]
@@ -1209,17 +1228,20 @@
       ]
       },
       { "mode" : "Reading", "season" : "Spring 1248"
-      , "sourceQuality" : 14, "bonusQuality" : 1
+      , "sourceQuality" : 14
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Oswald's tractatus Q14 + correspondent "
       , "changes" : [ { "art" : "Imaginem", "xp" : 18 } ]
       },
       { "mode" : "Reading", "season" : "Summer 1248"
-      , "sourceQuality" : 14, "bonusQuality" : 1
+      , "sourceQuality" : 14
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Maine's tractatus Q14 + correspondent (245½xp) "
       , "changes" : [ { "art" : "Imaginem", "xp" : 18 } ]
       },
       { "mode" : "Lab Work", "season" : "Autumn 1248"
-      , "sourceQuality" : 3
+      , "sourceQuality" : 2
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : " 250xp incl. affinity and correspondent; MuIm Lab total 62.  Warping roll 3"
       , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
          , { "spell" : "Ogre's Stench"
@@ -1234,7 +1256,8 @@
       ]
       },
       { "mode" : "Lab Work", "season" : "Winter 1249"
-      , "sourceQuality" : 3
+      , "sourceQuality" : 2
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : " 254½xp Invisibility Quartz for Sean; see below ; no aging (-18)"
       , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
          , { "aging" : { "deltaYounger" : 1
@@ -1282,7 +1305,8 @@
          ]
       },
       { "mode" : "Reading", "season" : "Spring 1250"
-      , "sourceQuality" : 11, "bonusQuality" : 1
+      , "sourceQuality" : 11
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Tractatus Q11 *Approaching Silence and Invisibility* with Book Learner, Correspondence, and Affinity"
       , "changes" : [ { "art" : "Imaginem", "xp" : 15 } ]
       },
@@ -1309,7 +1333,8 @@
       ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1251"
-      , "sourceQuality" : 3
+      , "sourceQuality" : 2
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "InIm spells below ->  281½.  Lab total 71"
       , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
          , { "spell" : "Palm of Seeing (Sun duration)"
@@ -1348,6 +1373,7 @@
       },
       { "mode" : "Lab Work", "season" : "Spring 1252"
       , "sourceQuality" : 3
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "ReIm35 CONFUSION OF THE INSANE VIBRATIONS (no text) (sun duration)"
       , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
          , { "spell" : "Confusion of the Insane Vibrations"
@@ -1362,7 +1388,8 @@
       , "changes" : [ { "art" : "Vim", "xp" : 16 } ]
       },
       { "mode" : "Adventure", "season" : "Autumn 1252"
-      , "sourceQuality" : 15, "bonusQuality" : 1
+      , "sourceQuality" : 15
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Imaginem 286 + 9 = 295 (5+correspondence&affinity), Faerie Lore 16+4=20, Latin 58+2=60, OoH Lore 7+4=11"
       , "changes" : [ { "art" : "Imaginem", "xp" : 6 }
                     , { "ability" : "Faerie Lore", "xp" : 4 }
@@ -1380,7 +1407,8 @@
       ]
       },
       { "mode" : "Reading", "season" : "Winter 1253"
-      , "sourceQuality" : 9, "bonusQuality" : 1
+      , "sourceQuality" : 9
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Bonus SQ +4 from Book Learner and Correspondent (88->101).  Aging roll -21"
       , "usesBook" : [ "RegoL20Q9" ]
       , "changes" : [ { "art" : "Rego", "xp" : 13 } 
@@ -1393,7 +1421,8 @@
       ]
       },
       { "mode" : "Reading", "season" : "Spring 1253"
-      , "sourceQuality" : 9, "bonusQuality" : 1
+      , "sourceQuality" : 9
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Bonus SQ +4 from Book Learner and Correspondent (101->114)"
       , "usesBook" : [ "RegoL20Q9" ]
       , "changes" : [ { "art" : "Rego", "xp" : 13 } ]
@@ -1457,6 +1486,8 @@
       , "sourceQuality" : 14
       , "narrative" : "  (371½xp)"
       , "changes" : [ { "art" : "Imaginem", "xp" : 14 } 
+                    , { "possession" : { "art" : "Cr", "count" : 3
+		        , "comment" : "Allowance" } } 
                     , { "possession" : { "art" : "Im", "count" : -5
 		        , "comment" : "vis study" } } ]
       },
@@ -1501,7 +1532,7 @@
       { "mode" : "Reading", "season" : "Summer 1255"
       , "comment" : "Reads the new Q12 Tractatus from Vigil"
       , "sourceQuality" : 12
-      , "bonusQuality" : 1
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "changes" : [ 
            { "art" : "Imaginem", "xp" : 16 }
       ]
@@ -1511,15 +1542,17 @@
       , "narrative" : "Author *Arrow's Flight*, an Auram Tracatus"
       , "comment" : "To 64xp in Latin"
       , "changes" : [ { "ability" : "Latin", "xp" : 2 } 
-                    , { "possession" : { "art" : "Me", "count" : 4
+                    , { "possession" : { "art" : "Cr", "count" : 2
+		        , "comment" : "allowance/salary" } } 
+                    , { "possession" : { "art" : "Co", "count" : 6
 		        , "comment" : "allowance/salary TBC" } } ]
       },
       { "mode" : "Teaching", "season" : "Winter 1256"
-      , "bonusQuality" : 1
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Teaching Luciu"
       , "comment" : "Lab Total 70 including +1 General Quality, 8 aura, and +7 familiar (with Imaginem Spec)"
       , "changes" : [ 
-           { "ability" : "Imaginem", "xp" : 3 }
+           { "art" : "Imaginem", "xp" : 3 }
             , { "aging" : { "deltaYounger" : 1
                , "agingRollDie" : 10
                , "agingRoll" : -1
@@ -1528,7 +1561,7 @@
       ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1256"
-      , "bonusQuality" : 1
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "CrIm spells (376xp).  Studious Doppleganger w/o text. Training Lucius in Magic Theory (SQ 15)."
       , "coment" : "Lab Total 70"
       , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
@@ -1549,7 +1582,7 @@
       { "mode" : "Reading", "season" : "Summer 1256"
       , "comment" : "Reads the new Q9 Tractatus from Vigil"
       , "sourceQuality" : 9
-      , "bonusQuality" : 1
+      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "changes" : [ 
            { "art" : "Imaginem", "xp" : 13 }
       ]
