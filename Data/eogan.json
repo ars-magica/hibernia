@@ -113,7 +113,7 @@
          , { "confidence" : "Confidence", "points" : 2 }
          ] 
       },
-      { "mode" : "Taming"
+      { "mode" : "Exposure Taming"
       , "season" : "Autumn 1254"
       , "sourceQuality" : 2
       , "narrative" : "Train three lymers and two greyhounds to Loyal +1."
@@ -126,7 +126,7 @@
          [ { "ability" : "Animal Handling", "xp": 2 }
          ] 
       },
-      { "mode" : "Training"
+      { "mode" : "Exposure Training"
       , "season" : "Winter 1255"
       , "sourceQuality" : 2
       , "narrative" : "Train one lymer in hunt +8 xp."
@@ -145,7 +145,7 @@
          , { "confidence" : "Confidence", "points" : 1 }
          ] 
       },
-      { "mode" : "Training"
+      { "mode" : "Exposure Training"
       , "season" : "Summer 1255"
       , "sourceQuality" : 2
       , "narrative" : "Train second lymer in hunt +8 xp."
@@ -153,8 +153,8 @@
          [ { "ability" : "Hunt", "xp": 2 }
          ] 
       },
-      { "mode" : "Taming"
-      , "season" : "Autumn 1254"
+      { "mode" : "Exposure Taming"
+      , "season" : "Autumn 1255"
       , "sourceQuality" : 2
       , "narrative" : "Train two lymers to Loyal +2, and one mastiff to +1."
       , "comment" : 
@@ -163,7 +163,7 @@
          [ { "ability" : "Animal Handling", "xp": 2 }
          ] 
       },
-      { "mode" : "Training"
+      { "mode" : "Exposure Training"
       , "season" : "Winter 1256"
       , "sourceQuality" : 2
       , "narrative" : "Train one lymer in hunt +8 xp (+16 total)."
@@ -171,12 +171,81 @@
          [ { "ability" : "Hunt", "xp": 2 }
          ] 
       },
-      { "mode" : "Training"
+      { "mode" : "Exposure Training"
       , "season" : "Spring 1256"
       , "sourceQuality" : 2
       , "narrative" : "Train second lymer in hunt +8 xp (+16 total)."
       , "comment" : 
          [ "Lymer 1-2. Loyal +2.  Hunt 16xp."
+            , "Lymer 3. Loyal +1."
+            , "Greyhound 1-2. Loyal +1."
+            , "Mastiff 1. Loyal +1."
+         ]
+      , "changes" : 
+         [ { "ability" : "Hunt", "xp": 2 }
+         ] 
+      },
+      { "mode" : "Practice"
+      , "season" : "Summer 1256"
+      , "sourceQuality" : 4
+      , "changes" : 
+         [ { "ability" : "Storytelling", "xp": 6 } ] 
+      },
+      { "mode" : "Practice"
+      , "season" : "Autumn 1256"
+      , "sourceQuality" : 4
+      , "changes" : 
+         [ { "ability" : "Survival", "xp": 6 } ] 
+      },
+      { "mode" : "Exposure Training"
+      , "season" : "Winter 1257"
+      , "sourceQuality" : 2
+      , "narrative" : "Train one lymer in hunt +8 xp (+24 total)."
+      , "changes" : 
+         [ { "ability" : "Hunt", "xp": 2 }
+         ] 
+      },
+      { "mode" : "Exposure Training"
+      , "season" : "Spring 1257"
+      , "sourceQuality" : 2
+      , "narrative" : "Train one lymer in hunt +8 xp (+32 total)."
+      , "comment" : 
+         [ "Lymer 1. Loyal +2.  Hunt 32xp."
+           , "Lymer 2. Loyal +2.  Hunt 16xp."
+            , "Lymer 3. Loyal +1."
+            , "Greyhound 1-2. Loyal +1."
+            , "Mastiff 1. Loyal +1."
+         ]
+      , "changes" : 
+         [ { "ability" : "Hunt", "xp": 2 }
+         ] 
+      },
+      { "mode" : "Practice"
+      , "season" : "Summer 1257"
+      , "sourceQuality" : 4
+      , "changes" : 
+         [ { "ability" : "Survival", "xp": 6 } ] 
+      },
+      { "mode" : "Practice"
+      , "season" : "Autumn 1257"
+      , "sourceQuality" : 4
+      , "changes" : 
+         [ { "ability" : "Survival", "xp": 6 } ] 
+      },
+      { "mode" : "Exposure Training"
+      , "season" : "Winter 1258"
+      , "sourceQuality" : 2
+      , "narrative" : "Train second lymer in hunt +8 xp (+24 total)."
+      , "changes" : 
+         [ { "ability" : "Hunt", "xp": 2 }
+         ] 
+      },
+      { "mode" : "Exposure Training"
+      , "season" : "Spring 1258"
+      , "sourceQuality" : 2
+      , "narrative" : "Train second lymer in hunt +8 xp (+32 total)."
+      , "comment" : 
+         [ "Lymer 1-2. Loyal +2.  Hunt 32xp."
             , "Lymer 3. Loyal +1."
             , "Greyhound 1-2. Loyal +1."
             , "Mastiff 1. Loyal +1."

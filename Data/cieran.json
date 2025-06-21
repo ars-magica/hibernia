@@ -97,7 +97,7 @@
          , { "art" : "Terram", "xp": 15 }
          , { "art" : "Vim", "xp": 3 }
          , { "ability" : "Hermes Lore", "spec": "Hibernia", "xp": 5 }
-         , { "ability" : "Artes Liberales", "spec" : "Rituals", "xp": 5 }
+         , { "ability" : "Artes Liberales", "spec" : "Ritual Casting", "xp": 5 }
          , { "ability" : "Latin", "spec" : "Hermetic Usage", "xp": 30 }
          , { "ability" : "Hermes Code", "spec" : "Stonehenge", "xp": 5 }
          , { "ability" : "Magic Theory", "spec" : "Spells", "xp": 30 }
@@ -145,6 +145,7 @@
       { "mode" : "Reading"
       , "season" : "Summer 1217"
       , "sourceQuality" : 21
+      , "usesBook" : "RootHerbam"
       , "changes" : 
          [ { "art" : "Herbam", "xp": 24, "levelCap" : 6  }
          ] 
@@ -164,7 +165,7 @@
       , "sourceQuality" : 15
       , "changes" : 
          [ { "art" : "Terram", "xp": 18, "levelCap" : 8 }
-	   , { "possession" : { "lab" : 
+	   , { "lab" : 
               { "name" : "Cieran's Workshop"
               , "narrative" : "A large house in the village, with living quarters and a workshop serving both as an Hermetic lab and a fletcher's workshop."
               , "state" : {
@@ -242,11 +243,11 @@
 	            }
                  ]
 	      }
-	      }
          }
          }
          ] 
       , "narrative" : "Studies *Root of Terram* L8Q15 +3" 
+      , "usesBook" : "RootTerram"
       },
       { "mode" : "Adventure"
       , "season" : "Spring 1218"
@@ -263,6 +264,7 @@
       { "mode" : "Reading"
       , "season" : "Summer 1218"
       , "sourceQuality" : 14
+      , "usesBook" : "socpL4Q14"
       , "changes" : 
          [ { "ability" : "SOCP Lore"
 	    , "spec" : "Self initiation"
@@ -282,6 +284,7 @@
       { "mode" : "Reading"
       , "season" : "Winter 1219"
       , "sourceQuality" : 13
+      , "usesBook" : "VimL15Q13"
       , "changes" : 
          [ { "art" : "Intellego", "xp": 16, "levelCap" : 15 }
          ] 
@@ -289,14 +292,17 @@
       },
       { "mode" : "Reading", "season" : "Spring 1219"
       , "sourceQuality" : 10
+      , "usesBook" : "TerramL11Q10"
       , "changes" : [ { "art" : "Terram", "xp" : 13, "levelCap" : 11 } ]
       },
       { "mode" : "Reading", "season" : "Summer 1219"
       , "sourceQuality" : 13
+	 , "usesBook" : "RegoL20Q9"
       , "changes" : [ { "art" : "Rego", "xp" : 16, "levelCap" : 10 } ]
       },
       { "mode" : "Reading", "season" : "Autumn 1219"
       , "sourceQuality" : 15
+	 , "usesBook" : "LatinL5Q15"
       , "changes" : [ { "ability" : "Latin", "xp" : 18 } ]
       },
       { "mode" : "Lab Work", "season" : "Winter 1220"
@@ -320,14 +326,17 @@
       },
       { "mode" : "Reading", "season" : "Summer 1220"
       , "sourceQuality" : 13
+      , "usesBook" : "VimL15Q13"
       , "changes" : [ { "art" : "Vim", "xp" : 16 } ]
       },
       { "mode" : "Reading", "season" : "Autumn 1220"
       , "sourceQuality" : 20
+      , "usesBook" : "RootMuto"
       , "changes" : [ { "art" : "Muto", "xp" : 23, "levelCap" : 6 } ]
       },
       { "mode" : "Reading", "season" : "Winter 1221"
       , "sourceQuality" : 18
+      , "usesBook" : "AquamL7Q18"
       , "changes" : [ { "art" : "Aquam", "xp" : 21, "levelCap" : 7 } ]
       },
       { "mode" : "Adventure", "season" : "Spring 1221"
@@ -339,19 +348,23 @@
       },
       { "mode" : "Reading", "season" : "Summer 1221"
       , "sourceQuality" : 8
+      , "usesBook" : "MedicineL3Q12"
       , "narrative" : "(Causes and Curies) half xp due to injuries = 8"
-      , "changes" : [ { "ability" : "Philosophiæ", "spec" : "Rituals", "xp" : 8 } ]
+      , "changes" : [ { "ability" : "Philosophiae", "spec" : "Ritual Casting", "xp" : 8 } ]
       },
       { "mode" : "Reading", "season" : "Autumn 1221"
       , "sourceQuality" : 19
+      , "usesBook" : "AuramL6Q19"
       , "changes" : [ { "art" : "Auram", "xp" : 22, "levelCap" : 6 } ]
       },
       { "mode" : "Reading", "season" : "Winter 1222"
       , "sourceQuality" : 13
+      , "usesBook" : "IntellegoL15Q13"
       , "changes" : [ { "art" : "Intellego", "xp" : 16 } ]
       },
       { "mode" : "Reading", "season" : "Spring 1222"
       , "sourceQuality" : 15
+      , "usesBook" : "RootIgnem"
       , "changes" : [ { "art" : "Ignem", "xp" : 18, "levelCap" : 8 } ]
       },
       { "mode" : "Lab Work", "season" : "Summer 1222"
@@ -361,6 +374,7 @@
       },
       { "mode" : "Reading", "season" : "Autumn 1222"
       , "sourceQuality" : 13
+      , "usesBook" : "IntellegoL15Q13"
       , "changes" : [ { "art" : "Intellego", "xp" : 16 } ]
       },
       { "mode" : "Lab Work", "season" : "Winter 1223"
@@ -411,23 +425,28 @@
       },
       { "mode" : "Reading", "season" : "Autumn 1223"
       , "sourceQuality" : 14
+      , "usesBook" : "AnimalL15Q14"
       , "changes" : [ { "art" : "Animal", "xp" : 17 } ]
       },
       { "mode" : "Reading", "season" : "Winter 1224"
       , "sourceQuality" : 15
+      , "usesBook" : "RootIgnem"
       , "changes" : [ { "art" : "Ignem", "xp" : 18, "levelCap" : 8 } ]
       },
       { "mode" : "Reading", "season" : "Spring 1224"
       , "sourceQuality" : 16
-      , "narrative" : "*Corpus Hermeticus*"
+      , "usesBook" : "CorpusHermeticus"
+      , "narrative" : "Reads *Corpus Hermeticus* which Phillipedes had on loan."
       , "changes" : [ { "art" : "Corpus", "xp" : 19 } ]
       },
       { "mode" : "Reading", "season" : "Summer 1224"
       , "sourceQuality" : 12
+      , "usesBook" : "MagicTheoryL5Q12"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 15 } ]
       },
       { "mode" : "Reading", "season" : "Autumn 1224"
       , "sourceQuality" : 12
+      , "usesBook" : "MagicTheoryL5Q12"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 15 } ]
       },
       { "mode" : "Lab Work", "season" : "Winter 1225"
@@ -442,6 +461,7 @@
       },
       { "mode" : "Reading", "season" : "Spring 1225"
       , "sourceQuality" : 12
+      , "usesBook" : "MagicTheoryL5Q12"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 15 } ]
       },
       { "mode" : "Lab Work", "season" : "Summer 1225"
@@ -456,6 +476,7 @@
       },
       { "mode" : "Reading", "season" : "Autumn 1225"
       , "sourceQuality" : 13
+	 , "usesBook" : "VimL15Q13"
       , "narrative" : "Made Potions of Demon's Oblivion "
       , "changes" : [ { "art" : "Vim", "xp" : 16 } ]
       },
@@ -476,6 +497,7 @@
       },
       { "mode" : "Reading", "season" : "Summer 1226"
       , "sourceQuality" : 14
+	 , "usesBook" : "CreoL15Q14"
       , "changes" : [ { "art" : "Creo", "xp" : 17 } 
                     , { "possession" : { "art" : "Im", "count" : 10
 		        , "comment" : "payment for items sold at the Midsummer fair" } }
@@ -483,22 +505,23 @@
       },
       { "mode" : "Reading", "season" : "Autumn 1226"
       , "sourceQuality" : 13
+	 , "usesBook" : "MentemL16Q13"
       , "changes" : [ { "art" : "Mentem", "xp" : 16 } ]
       },
       { "mode" : "Lab Work", "season" : "Winter 1227"
       , "sourceQuality" : 2
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : [ "Training for Hiccup in Magic Theory (SQ 8 for Hiccup)."
                       , "Create Safe Cauldron, using Folio-1109 for lab text and bookstand of Hespera"
       ]
       , "comment" : [ "Exposure 2xp Magic Theory. Bonus XP in Hermes Lore." ]
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
-                    , { "ability" : "Hermes Lore", "xp" : 1 } 
+                    , { "ability" : "Hermes Lore", "bonusXP" : 1, "comment" : "Bonus XP from Folio" } 
                     , { "possession" : { "art" : "Cr", "count" : -3
 		        , "comment" : "for the Safe Cauldron" } } ]
       },
       { "mode" : "Reading", "season" : "Spring 1227"
       , "sourceQuality" : 14
+	 , "usesBook" : "CreoL15Q14"
       , "changes" : [ { "art" : "Creo", "xp" : 17 } ]
       },
       { "mode" : "Lab Work", "season" : "Summer 1227"
@@ -518,6 +541,7 @@
       },
       { "mode" : "Reading", "season" : "Winter 1228"
       , "sourceQuality" : 13
+	 , "usesBook" : "MentemL16Q13"
       , "changes" : [ { "art" : "Mentem", "xp" : 16, "levelCap" : 16 } ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1228"
@@ -532,6 +556,7 @@
       },
       { "mode" : "Reading", "season" : "Summer 1228"
       , "sourceQuality" : 10
+      , "usesBook" : "ImaginemL19Q10"
       , "changes" : [ { "art" : "Imaginem", "xp" : 13, "levelCap" : 19 } 
                     , { "possession" : { "art" : "Vi", "count" : 3
 		        , "comment" : "sales at the Grand tribunal" } } 
@@ -539,19 +564,21 @@
       },
       { "mode" : "Reading", "season" : "Autumn 1228"
       , "sourceQuality" : 10
+      , "usesBook" : "ImaginemL19Q10"
       , "changes" : [ { "art" : "Imaginem", "xp" : 13 } ]
       },
       { "mode" : "Reading", "season" : "Winter 1229"
       , "sourceQuality" : 16
-      , "narrative" : "*Corpus Hermeticum*"
+      , "usesBook" : "CorpusHermeticus"
+      , "narrative" : "Reads *Corpus Hermeticus* which Phillipedes had on loan."
       , "changes" : [ { "art" : "Corpus", "xp" : 19 } ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1229"
       , "sourceQuality" : 2
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Folio bonus in Hermes Lore" }
       , "narrative" : "Training for Hiccup in Magic Theory.  (SQ 8 for Hiccup) Invent spells from Folio. Bonus XP in Hermes Lore"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 } 
-                    , { "ability" : "Hermes Lore", "xp" : 1 } 
+                    , { "ability" : "Hermes Lore", "bonusXP" : 1
+		    , "comment" : "Bonus XP from Folio" } 
                     , { "spell" : "Circle of Undisturbed Rest"
                        , "tefo" : "ReIm", "level" : 10
                        , "mastery" : [ "Quiet Casting" ] 
@@ -596,6 +623,7 @@
       { "mode" : "Reading", "season" : "Spring 1230"
       , "sourceQuality" : 12
       , "narrative" : "L6Q12"
+      , "usesBook" : "HiberniaL6Q12"
       , "changes" : [ { "ability" : "Area Lore: Ireland", "xp" : 15 } ]
       },
       { "mode" : "Adventure", "season" : "Summer 1230"
@@ -628,6 +656,7 @@
       },
       { "mode" : "Reading", "season" : "Summer 1231"
       , "sourceQuality" : 14
+      , "usesBook" : "socpL4Q14"
       , "changes" : 
          [ { "ability" : "SOCP Lore"
 	    , "spec" : "Self initiation"
@@ -637,6 +666,7 @@
       { "mode" : "Reading", "season" : "Autumn 1231"
       , "sourceQuality" : 14
       , "narrative" : "SOCP Lore. Reaching 4. "
+      , "usesBook" : "socpL4Q14"
       , "changes" : 
          [ { "ability" : "SOCP Lore"
 	    , "spec" : "Self initiation"
@@ -720,6 +750,7 @@
       ]
       },
       { "mode" : "Reading", "season" : "Winter 1234"
+	 , "usesBook" : "VimL15Q13"
       , "sourceQuality" : 13
       , "narrative" : "*Magic Companion* L15Q13 "
       , "changes" : [ { "art" : "Vim", "xp" : 16 } ]
@@ -728,19 +759,55 @@
       , "sourceQuality" : 2
       , "narrative" : "Hiccup "
       , "changes" : [ { "ability" : "Teaching", "xp" : 2 } 
-         , { "possession" : { "name" : "Stone-Cutting Knife"
-                            , "comment" : "made by Hiccup" } }
-         , { "possession" : { "name" : "Porter’s Glove"
-                            , "comment" : "made by Hiccup" } }
+         , { "possession" : 
+	       { "enchantment" : { "lesseritem" :
+		   { "name" : "Stone-Cutting Knife"
+		      , "level" : 15
+		      , "technique" : "Re"
+		      , "form" : "Te"
+		      , "range" : "Touch"
+		      , "duration" : "Mom"
+		      , "target" : "Part"
+		      , "modifiers" : "Unlimited uses"
+		      , "design" : "GL 2, +1 stone, +1 Touch, +1 Part, +10 levels unlimited uses"
+		      , "description" : [
+			 "This enchanted chisel shapes and forms stone as if a well-equipped stone- mason were carving it. The device may be used to carve blocks from a quarry (hence the Part Target). The wielder’s Dexterity + Finesse roll substitutes for a mason’s Craft roll (with +3 to the comparable Ease Factor). "
+		      , "It is a Simple task for a Mason to cut a plain block, so the basic Finesse Ease Factor to use this device to cut blocks for building is 6. Grogs deputed to the task can usually be trusted to carve blocks of approximately regular shape, though they may need trimming to fit, when used. "
+      ]
+		   }
+		   
+		}
+               , "comment" : "made by Hiccup" } }
+         , { "possession" :
+	        { "name" : "Porter’s Glove"
+	        , "enchantment" : { "lesseritem" :
+		   { "name" : "The Enchanted Porter"
+		      , "level" : 15
+		      , "technique" : "Re"
+		      , "form" : "Te"
+		      , "range" : "Touch"
+		      , "duration" : "Conc"
+		      , "target" : "Ind"
+		      , "modifiers" : "24 uses/day"
+		      , "design" : "GL 3, +1 Touch, +1 Conc, +5 levels to maintain, +5 levels for 24 uses; based on The Unseen Porter"
+		      , "description" : "This enchanted glove, when placed against an inanimate object, lifts and pushes the object as the user holds on and moves. When the user removes his gloved hand from the object, it settles to the ground"
+		      , "comment" : "Pen +0, 24/day R: Touch, D: Conc, T: Ind, device maintains concentration"
+		   }
+		   
+		}
+                , "comment" : "made by Hiccup" } 
+		}
       ]
       },
       { "mode" : "Reading", "season" : "Summer 1234"
       , "sourceQuality" : 13
-      , "narrative" : "*Magic Companion* L15Q13 "
+	 , "usesBook" : "VimL15Q13"
+      , "narrative" : "*Magic Companion* L15Q13"
       , "changes" : [ { "art" : "Vim", "xp" : 16 } ]
       },
       { "mode" : "Reading", "season" : "Autumn 1234"
       , "sourceQuality" : 10
+      , "usesBook" : "ImaginemL19Q10"
       , "narrative" : "Maine's wedding in Clonmacnoise.  Reading  (13x1½) Imaginem."
       , "changes" : [ { "art" : "Imaginem", "xp" : 13 } 
          , { "reputation" : "Friendly druid", "locale" : "Lands of O'Sullivan", 
@@ -749,6 +816,7 @@
       },
       { "mode" : "Reading", "season" : "Winter 1235"
       , "sourceQuality" : 10
+      , "usesBook" : "ImaginemL19Q10"
       , "narrative" : "13x1½ -> Imaginem 105x1½xp = 157½ -> 17 (4½)"
       , "changes" : [ { "art" : "Imaginem", "xp" : 13 } 
          , { "possession" : { "art" : "Te", "count" : 2, "comment" : "Allowance" } }
@@ -774,6 +842,7 @@
       ]
       },
       { "mode" : "Reading", "season" : "Autumn 1235"
+	 , "usesBook" : "RegoL20Q9"
       , "sourceQuality" : 9
       , "narrative" : " 52->64 "
       , "changes" : [ { "art" : "Rego", "xp" : 12 } 
@@ -784,6 +853,7 @@
       },
       { "mode" : "Reading", "season" : "Winter 1236"
       , "sourceQuality" : 10
+      , "usesBook" : "ImaginemL19Q10"
       , "narrative" : "13x1½ -> Imaginem 118x1½xp = 177 -> 18 (6)"
       , "changes" : [ { "art" : "Imaginem", "xp" : 13 } ]
       },
@@ -803,6 +873,7 @@
       },
       { "mode" : "Reading", "season" : "Autumn 1236"
       , "sourceQuality" : 13
+	 , "usesBook" : "MentemL16Q13"
       , "narrative" : " 65xp score 10 "
       , "changes" : [ { "art" : "Mentem", "xp" : 16, "levelCap" : 16 } ]
       },
@@ -962,6 +1033,12 @@
       , "narrative" : "Fixate AC"
       , "changes" : [ { "ability" : "Magic Theory", "xp" : 2 }
          , { "possession" : { "art" : "Vi", "count" : -6, "comment" : "to fixate arcane connections" } }
+         , { "possession" : { "acTo" : "Cieran's Workshop"  } }
+         , { "possession" : { "acTo" : "Tress's Covenant"  } }
+         , { "possession" : { "acTo" : "Standing Stones in Brittany"  } }
+         , { "possession" : { "acTo" : "Qui Sonant (at polite distance)"  } }
+         , { "possession" : { "acTo" : "Tribunal Location (at polite distance)"  } }
+         , { "possession" : { "acTo" : "Killaloe (secluded location in the woods 250-500 paces downstream.)"  } }
          ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1241"
@@ -979,6 +1056,7 @@
       },
       { "mode" : "Reading", "season" : "Autumn 1241"
       , "sourceQuality" : 14
+	 , "usesBook" : "CreoL15Q14"
       , "narrative" : "17xp Creo  <-  *Growing, Healing, and Creation* -> 72xp (score 11)"
       , "changes" : [ { "art" : "Creo", "xp" : 17 } ]
       },
@@ -1021,7 +1099,8 @@
          , { "aging" : { "longevity" : 22 } } 
          , { "possession" : { "art" : "Vi", "count" : -2
                             , "comment" : "payment to Main for the LR" } }
-         , { "possession" : { "art" : "Pe", "count" : -1
+         , { "possession" : {  "name" : "Perdo Vis from Jerome's body"
+                            , "art" : "Pe", "count" : -1
                             , "comment" : "payment to Main for the LR" } }
          , { "possession" : { "art" : "Te", "count" : -1
                             , "comment" : "payment to Main for the LR" } }
@@ -1035,11 +1114,12 @@
       { "mode" : "Reading", "season" : "Winter 1243"
       , "sourceQuality" : 13
       , "narrative" : " *The Mind's Eye* L16Q13 -> 81xp ; No aging"
+	 , "usesBook" : "MentemL16Q13"
       , "changes" : [ { "art" : "Mentem", "xp" : 16, "levelCap" : 16 } 
-         , { "aging" : { "deltaYounger" : 1
-            , "agingRollDie" : 0
-            , "agingRoll" : 0
-            , "agingComment" : "No aging. Rolls not recorded"
+         , { "aging" : { "apparentYounger" : 1
+            , "die" : 0
+            , "roll" : 0
+            , "comment" : "No aging. Rolls not recorded"
          } 
          }
          , { "possession" : { "art" : "Pe", "count" : 1
@@ -1048,27 +1128,31 @@
       },
       { "mode" : "Reading", "season" : "Spring 1243"
       , "sourceQuality" : 14
+	 , "usesBook" : "CreoL15Q14"
       , "narrative" : " *Growing, Healing, and Creation* L15Q14 -> 89xp "
       , "changes" : [ { "art" : "Creo", "xp" : 17 } ]
       },
       { "mode" : "Reading", "season" : "Summer 1243"
       , "sourceQuality" : 14
+	 , "usesBook" : "CreoL15Q14"
       , "narrative" : " *Growing, Healing, and Creation* L15Q14 -> 106xp "
       , "changes" : [ { "art" : "Creo", "xp" : 17 } ]
       },
       { "mode" : "Reading", "season" : "Autumn 1243"
       , "sourceQuality" : 14
+	 , "usesBook" : "CreoL15Q14"
       , "narrative" : " *Growing, Healing, and Creation* L15Q14 capped 15 for +14xp -> 120xp "
       , "changes" : [ { "art" : "Creo", "xp" : 17, "levelCap" : 15 } ]
       },
       { "mode" : "Reading", "season" : "Winter 1244"
       , "sourceQuality" : 14
+	 , "usesBook" : "CreoQ14Maine"
       , "narrative" : "Maine's Tractatus on Creo Vol I (to 16  or 137xp); No apparent aging"
       , "changes" : [ { "art" : "Creo", "xp" : 17 } 
-         , { "aging" : { "deltaYounger" : 1
-            , "agingRollDie" : 0
-            , "agingRoll" : 0
-            , "agingComment" : "No aging. Rolls not recorded"
+         , { "aging" : { "apparentYounger" : 1
+            , "die" : 0
+            , "roll" : 0
+            , "comment" : "No aging. Rolls not recorded"
          } }
       ]
       },
@@ -1094,6 +1178,7 @@
       },
       { "mode" : "Reading", "season" : "Autumn 1244"
       , "sourceQuality" : 8
+      , "usesBook" : "FaerieQ8Dark"
       , "narrative" : " *Dark Fey of the East* "
       , "changes" : [ { "ability" : "Faerie Lore", "spec" : "Dark fey", "xp" : 11 } ]
       },
@@ -1117,10 +1202,10 @@
             , "tefo" : "PeVi", "level" : 10
            , "mastery" : [ "Penetration" ]
          }
-         , { "aging" : { "deltaYounger" : 0
-            , "agingRollDie" : 28
-            , "agingRoll" : 4
-            , "agingComment" : "Apparent age increases"
+         , { "aging" : { "apparentYounger" : 0
+            , "die" : 28
+            , "roll" : 4
+            , "comment" : "Apparent age increases"
          } } 
         ]
       },
@@ -1141,10 +1226,10 @@
       },
       { "mode" : "Reading", "season" : "Summer 1245"
       , "sourceQuality" : 10
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
+      , "usesBook" : "ImaginemL19Q10"
       , "narrative" : "Summa; capped at 19 +1½xp for correspondent (191½xp) "
       , "changes" : [ { "art" : "Imaginem", "xp" : 13, "levelCap" : 19 } 
-                    , { "art" : "Imaginem", "xp" : 1 } ]
+                    , { "art" : "Imaginem", "bonusXP" : 1, "comment" : "bonus XP from correspondent" } ]
       },
       { "mode" : "Copying", "season" : "Autumn 1245"
       , "sourceQuality" : 2
@@ -1154,11 +1239,12 @@
       { "mode" : "Reading", "season" : "Winter 1246"
       , "sourceQuality" : 13
       , "narrative" : "Win/Spr/Sum 1246: 3x16 Mentem (Mentem L16Q13); 3x (13+3) = 42xp (81->123) 15; no aging"
+	 , "usesBook" : "MentemL16Q13"
       , "changes" : [ { "art" : "Mentem", "xp" : 16, "levelCap" : 16 } 
-         , { "aging" : { "deltaYounger" : 1
-            , "agingRollDie" : 0
-            , "agingRoll" : 0
-            , "agingComment" : "No aging. Rolls not recorded"
+         , { "aging" : { "apparentYounger" : 1
+            , "die" : 0
+            , "roll" : 0
+            , "comment" : "No aging. Rolls not recorded"
          } 
          }
       ]
@@ -1166,32 +1252,37 @@
       { "mode" : "Reading", "season" : "Spring 1246"
       , "sourceQuality" : 13
       , "narrative" : "Win/Spr/Sum 1246: 3x16 Mentem (Mentem L16Q13); 3x (13+3) = 42xp (81->123) 15"
+	 , "usesBook" : "MentemL16Q13"
       , "changes" : [ { "art" : "Mentem", "xp" : 16, "levelCap" : 16 } ]
       },
       { "mode" : "Reading", "season" : "Summer 1246"
       , "sourceQuality" : 13
       , "narrative" : "Win/Spr/Sum 1246: 3x16 (Mentem L16Q13); 3x (13+3) = 42xp (81->123) 15"
+	 , "usesBook" : "MentemL16Q13"
       , "changes" : [ { "art" : "Mentem", "xp" : 16, "levelCap" : 16 } ]
       },
       { "mode" : "Reading", "season" : "Autumn 1246"
       , "sourceQuality" : 13
       , "narrative" : "13 (capped) Mentem L16Q13 to 16 "
+	 , "usesBook" : "MentemL16Q13"
       , "changes" : [ { "art" : "Mentem", "xp" : 16, "levelCap" : 16 } ]
       },
       { "mode" : "Reading", "season" : "Winter 1247"
       , "sourceQuality" : 14
       , "narrative" : "Maine's Tractatus + Book Learner; 8-24=-16 no aging"
+	 , "usesBook" : "MentemQ14Maine"
       , "changes" : [ { "art" : "Mentem", "xp" : 17 }
-         , { "aging" : { "deltaYounger" : 1
-            , "agingRollDie" : 8
-            , "agingRoll" : -16
-            , "agingComment" : "No aging. Rolls not recorded"
+         , { "aging" : { "apparentYounger" : 1
+            , "die" : 8
+            , "roll" : -16
+            , "comment" : "No aging. Rolls not recorded"
          } 
          } 
       ]
       },
       { "mode" : "Reading", "season" : "Spring 1247"
       , "sourceQuality" : 11
+	 , "usesBook" : "CreoQ11Igneous1239"
       , "narrative" : "Tractatus *On the Spark*"
       , "changes" : [ { "art" : "Creo", "xp" : 14 } ]
       },
@@ -1212,38 +1303,41 @@
 	            , { "possession" : {  "art" : "In",  "count" : -4, "comment" :  "Traded for Mentem for the ritual" } }
 	            , { "possession" : {  "art" : "Mu",  "count" : -2, "comment" :  "Traded for Mentem for the ritual" } }
 	            , { "possession" : {  "art" : "Te",  "count" : -2, "comment" :  "Traded for Mentem for the ritual" } }
-	            , { "possession" : {  "art" : "Re",  "count" : -1, "comment" :  "Traded for Mentem for the ritual" } }
+	            , { "possession" : {  "name" : "Rego Vis from Jerome's body", "art" : "Re",  "count" : -1, "comment" :  "Traded for Mentem for the ritual" } }
                     ]
       },
       { "mode" : "Reading", "season" : "Winter 1248"
       , "sourceQuality" : 12
       , "narrative" : "Summa L20Q12; no aging (-4) "
+      , "usesBook" : "MutoL20Q12"
       , "changes" : [ { "art" : "Muto", "xp" : 15 } 
-         , { "aging" : { "deltaYounger" : 1
-            , "agingRollDie" : 0
-            , "agingRoll" : -4
-            , "agingComment" : "No aging. Die not recorded"
+         , { "aging" : { "apparentYounger" : 1
+            , "die" : 0
+            , "roll" : -4
+            , "comment" : "No aging. Die not recorded"
          } 
          } 
       ]
       },
       { "mode" : "Reading", "season" : "Spring 1248"
       , "sourceQuality" : 14
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
+      , "usesBook" : "ImaginemQ14Oswald"
       , "narrative" : "Oswald's tractatus Q14 + correspondent "
-      , "changes" : [ { "art" : "Imaginem", "xp" : 18 } ]
+      , "changes" : [ { "art" : "Imaginem", "xp" : 17
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" } ]
       },
       { "mode" : "Reading", "season" : "Summer 1248"
       , "sourceQuality" : 14
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
+      , "usesBook" : "ImaginemQ14Maine"
       , "narrative" : "Maine's tractatus Q14 + correspondent (245½xp) "
-      , "changes" : [ { "art" : "Imaginem", "xp" : 18 } ]
+      , "changes" : [ { "art" : "Imaginem", "xp" : 17
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" } ]
       },
       { "mode" : "Lab Work", "season" : "Autumn 1248"
       , "sourceQuality" : 2
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : " 250xp incl. affinity and correspondent; MuIm Lab total 62.  Warping roll 3"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
+      , "changes" : [ { "art" : "Imaginem", "xp" : 2 
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" } 
          , { "spell" : "Ogre's Stench"
             , "tefo" : "MuIm", "level" : 25
 	    , "mastery" : [ "Quiet Casting" ]
@@ -1257,13 +1351,13 @@
       },
       { "mode" : "Lab Work", "season" : "Winter 1249"
       , "sourceQuality" : 2
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : " 254½xp Invisibility Quartz for Sean; see below ; no aging (-18)"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
-         , { "aging" : { "deltaYounger" : 1
-            , "agingRollDie" : 0
-            , "agingRoll" : -18
-            , "agingComment" : "No aging. Die not recorded"
+      , "changes" : [ { "art" : "Imaginem", "xp" : 2
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" } 
+         , { "aging" : { "apparentYounger" : 1
+            , "die" : 0
+            , "roll" : -18
+            , "comment" : "No aging. Die not recorded"
             } 
          }
 	 , { "possession" : {  "art" : "Me",  "count" : 4
@@ -1273,11 +1367,13 @@
       },
       { "mode" : "Reading", "season" : "Spring 1249"
       , "sourceQuality" : 13
+      , "usesBook" : "IntellegoL15Q13"
       , "narrative" : "Summa L15Q13 (to 80xp: 12) "
       , "changes" : [ { "art" : "Intellego", "xp" : 16 } ]
       },
       { "mode" : "Reading", "season" : "Summer 1249"
       , "sourceQuality" : 13
+      , "usesBook" : "IntellegoL15Q13"
       , "narrative" : "Summa L15Q13"
       , "changes" : [ { "art" : "Intellego", "xp" : 16 } ]
       },
@@ -1296,47 +1392,51 @@
          }
          , { "reputation" : "Crafter of Magic", "locale" : "Hermetic", 
             "xp" : 20, "comment" : "From Lab Aesthetics" }
-            , { "aging" : { "deltaYounger" : 1
-               , "agingRollDie" : -1
-               , "agingRoll" : -18
-               , "agingComment" : "No aging."
+            , { "aging" : { "apparentYounger" : 1
+               , "die" : -1
+               , "roll" : -18
+               , "comment" : "No aging."
 	    }
 	    }
          ]
       },
       { "mode" : "Reading", "season" : "Spring 1250"
       , "sourceQuality" : 11
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
+      , "usesBook" : "ImaginemQ11Rudolph"
       , "narrative" : "Tractatus Q11 *Approaching Silence and Invisibility* with Book Learner, Correspondence, and Affinity"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 15 } ]
+      , "changes" : [ { "art" : "Imaginem", "xp" : 14
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" } ]
       },
       { "mode" : "Reading", "season" : "Summer 1250"
       , "sourceQuality" : 12
+      , "usesBook" : "CorpusL17Q12"
       , "narrative" : "Summa L17Q12 + Book Learner 53 -> 68 "
       , "changes" : [ { "art" : "Corpus", "xp" : 15 } ]
       },
       { "mode" : "Reading", "season" : "Autumn 1250"
       , "sourceQuality" : 13
+      , "usesBook" : [ "IntellegoL15Q13" ]
       , "narrative" : "Summa L15Q13 + Book Learner 80 -> 96"
       , "changes" : [ { "art" : "Intellego", "xp" : 16 } ]
       },
       { "mode" : "Reading", "season" : "Winter 1251"
       , "sourceQuality" : 13
+      , "usesBook" : [ "IntellegoL15Q13" ]
       , "narrative" : "Summa L15Q13 + Book Learner 96 -> 112; no aging -20"
       , "changes" : [ { "art" : "Intellego", "xp" : 16 } 
-            , { "aging" : { "deltaYounger" : 1
-               , "agingRollDie" : -1
-               , "agingRoll" : -20
-               , "agingComment" : "No aging."
+            , { "aging" : { "apparentYounger" : 1
+               , "die" : -1
+               , "roll" : -20
+               , "comment" : "No aging."
 	    }
 	    }
       ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1251"
       , "sourceQuality" : 2
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "InIm spells below ->  281½.  Lab total 71"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
+      , "changes" : [ { "art" : "Imaginem", "xp" : 2
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" } 
          , { "spell" : "Palm of Seeing (Sun duration)"
             , "tefo" : "InIm", "level" : 20
            , "mastery" : [ "Penetration" ] }
@@ -1350,21 +1450,22 @@
       },
       { "mode" : "Reading", "season" : "Summer 1251"
       , "sourceQuality" : 9
+      , "usesBook" : [ "RegoL20Q9" ]
       , "changes" : [ { "art" : "Rego", "xp" : 12 } ]
       },
       { "mode" : "Author Book", "season" : "Autumn 1251"
       , "sourceQuality" : 2
-      , "narrative" : "*Imaginary Horrors*"
+      , "narrative" : "Authoring *Imaginary Horrors* drawing on the work with the Cathach protection."
       , "changes" : [ { "ability" : "Parma Magica", "xp" : 2 } ]
       },
       { "mode" : "Reading", "season" : "Winter 1252"
       , "sourceQuality" : 9
-      , "narrative" : "no aging -16"
+      , "usesBook" : [ "RegoL20Q9" ]
       , "changes" : [ { "art" : "Rego", "xp" : 12 } 
-            , { "aging" : { "deltaYounger" : 1
-               , "agingRollDie" : -1
-               , "agingRoll" : -16
-               , "agingComment" : "No aging."
+            , { "aging" : { "apparentYounger" : 1
+               , "die" : -1
+               , "roll" : -16
+               , "comment" : "No aging."
 	    }
 	    }
         , { "possession" : { "art" : "Im", "count" : 12
@@ -1373,9 +1474,9 @@
       },
       { "mode" : "Lab Work", "season" : "Spring 1252"
       , "sourceQuality" : 3
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "ReIm35 CONFUSION OF THE INSANE VIBRATIONS (no text) (sun duration)"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
+      , "changes" : [ { "art" : "Imaginem", "xp" : 2
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" } 
          , { "spell" : "Confusion of the Insane Vibrations"
            , "tefo" : "ReIm", "level" : 35
 	    , "mastery" : [ "Penetration" ]
@@ -1385,13 +1486,14 @@
       { "mode" : "Reading", "season" : "Summer 1252"
       , "sourceQuality" : 13
       , "narrative" : "To 83xp"
+      , "usesBook" : "VimL15Q13"
       , "changes" : [ { "art" : "Vim", "xp" : 16 } ]
       },
       { "mode" : "Adventure", "season" : "Autumn 1252"
       , "sourceQuality" : 15
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Imaginem 286 + 9 = 295 (5+correspondence&affinity), Faerie Lore 16+4=20, Latin 58+2=60, OoH Lore 7+4=11"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 6 }
+      , "changes" : [ { "art" : "Imaginem", "xp" : 5
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" } 
                     , { "ability" : "Faerie Lore", "xp" : 4 }
                     , { "ability" : "Latin", "xp" : 2 }
                     , { "ability" : "Hermes Lore", "xp" : 4 }
@@ -1408,24 +1510,24 @@
       },
       { "mode" : "Reading", "season" : "Winter 1253"
       , "sourceQuality" : 9
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Bonus SQ +4 from Book Learner and Correspondent (88->101).  Aging roll -21"
       , "usesBook" : [ "RegoL20Q9" ]
-      , "changes" : [ { "art" : "Rego", "xp" : 13 } 
-            , { "aging" : { "deltaYounger" : 1
-               , "agingRollDie" : -1
-               , "agingRoll" : -21
-               , "agingComment" : "No aging."
+      , "changes" : [ { "art" : "Rego", "xp" : 12  
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" } 
+            , { "aging" : { "apparentYounger" : 1
+               , "die" : -1
+               , "roll" : -21
+               , "comment" : "No aging."
 	    }
          } 
       ]
       },
       { "mode" : "Reading", "season" : "Spring 1253"
       , "sourceQuality" : 9
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "narrative" : "Bonus SQ +4 from Book Learner and Correspondent (101->114)"
       , "usesBook" : [ "RegoL20Q9" ]
-      , "changes" : [ { "art" : "Rego", "xp" : 13 } ]
+      , "changes" : [ { "art" : "Rego", "xp" : 12
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" }  ]
       },
       { "mode" : "Lab Work", "season" : "Summer 1253"
       , "sourceQuality" : 2
@@ -1460,10 +1562,10 @@
                     , { "ability" : "Etiquette", "xp" : 2 } 
                     , { "reputation" : "Friendly druid",
                        "locale" : "Lands of O'Sullivan", "xp" : 4 }
-            , { "aging" : { "deltaYounger" : 1
-               , "agingRollDie" : 4
-               , "agingRoll" : -1
-               , "agingComment" : "No aging."
+            , { "aging" : { "apparentYounger" : 1
+               , "die" : 4
+               , "roll" : -1
+               , "comment" : "No aging."
 	    } }
          , { "confidence" : "Confidence", "points" : 2 }
       ]
@@ -1503,10 +1605,10 @@
 		        , "comment" : "Correction" } } 
         , { "possession" : { "art" : "Vi", "count" : 2
 		        , "comment" : "Correction" } } 
-            , { "aging" : { "deltaYounger" : 1
-               , "agingRollDie" : 0
-               , "agingRoll" : -1
-               , "agingComment" : "No aging."
+            , { "aging" : { "apparentYounger" : 1
+               , "die" : 0
+               , "roll" : -1
+               , "comment" : "No aging."
 	    } }
       ]
       },
@@ -1531,10 +1633,11 @@
       },
       { "mode" : "Reading", "season" : "Summer 1255"
       , "comment" : "Reads the new Q12 Tractatus from Vigil"
+      , "usesBook" : "Im-Vigil-Q12"
       , "sourceQuality" : 12
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "changes" : [ 
-           { "art" : "Imaginem", "xp" : 16 }
+           { "art" : "Imaginem", "xp" : 15
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" }  
       ]
       },
       { "mode" : "Author", "season" : "Autumn 1255"
@@ -1548,23 +1651,25 @@
 		        , "comment" : "allowance/salary TBC" } } ]
       },
       { "mode" : "Teaching", "season" : "Winter 1256"
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
-      , "narrative" : "Teaching Luciu"
+      , "narrative" : "Teaching spells to Luciu"
       , "comment" : "Lab Total 70 including +1 General Quality, 8 aura, and +7 familiar (with Imaginem Spec)"
       , "changes" : [ 
-           { "art" : "Imaginem", "xp" : 3 }
-            , { "aging" : { "deltaYounger" : 1
-               , "agingRollDie" : 10
-               , "agingRoll" : -1
-               , "agingComment" : "No aging."
+           { "art" : "Imaginem", "xp" : 2
+	 , "bonusXP" : 1, "comment" : "Bonus XP from correspondent" }  
+            , { "aging" : { "apparentYounger" : 1
+               , "die" : 10
+               , "roll" : -1
+               , "comment" : "No aging."
 	    } }
       ]
       },
       { "mode" : "Lab Work", "season" : "Spring 1256"
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
-      , "narrative" : "CrIm spells (376xp).  Studious Doppleganger w/o text. Training Lucius in Magic Theory (SQ 15)."
-      , "coment" : "Lab Total 70"
-      , "changes" : [ { "art" : "Imaginem", "xp" : 3 } 
+      , "narrative" :
+         [ "CrIm spells (376xp).  Studious Doppleganger w/o text."
+         , "Training Lucius in Magic Theory (SQ 15)." ]
+      , "comment" : "Lab Total 70"
+      , "changes" : [ { "art" : "Imaginem", "xp" : 2, "bonusXP" : 1,
+          "comment" : "with correspondent" } 
          , { "spell" : "Book of Images"
             , "tefo" : "CrIm", "level" : 15
             , "mastery" : [ "Quiet Casting" ]
@@ -1581,20 +1686,175 @@
       },
       { "mode" : "Reading", "season" : "Summer 1256"
       , "comment" : "Reads the new Q9 Tractatus from Vigil"
+      , "usesBook" : "Im-Vigil-Q9"
       , "sourceQuality" : 9
-      , "bonusQuality" : { "sourceBonus" : 1, "bonusSource" : "Correspondent" }
       , "changes" : [ 
-           { "art" : "Imaginem", "xp" : 13 }
+           { "art" : "Imaginem", "xp" : 12, "bonusXP" : 1, "comment" : "with Correspondent" }
+         , { "confidence" : "Confidence", "points" : 1 }
+         , { "confidence" : "Confidence", "points" : -1 }
+         , { "possession" : { "art" : "Te", "count" : -2
+	   , "comment" : "payment for arcane connections" } }
+         , { "possession" : { "art" : "Im", "count" : 3
+	   , "comment" : "allowance" } }
       ]
       },
-      { "mode" : "Teaching", "season" : "Winter 1257"
-      , "narrative" : "Teaching Luciu"
+      { "mode" : "Lab Work", "season" : "Autumn 1256"
+      , "comment" : "Lab total 47 +  similar spell +5; familiar +6 -> 58"
       , "changes" : [ 
-            { "aging" : { "deltaYounger" : 1
-               , "agingRollDie" : 5
-               , "agingRoll" : -1
-               , "agingComment" : "No aging."
+         { "ability" : "Creo", "xp" : 2 }
+         , { "possession" : 
+	       { "enchantment" : { "lesseritem" :
+		   { "name" : "Threshold of the Hospital"
+		      , "level" : 29
+		      , "technique" : "Cr"
+		      , "form" : "Co"
+		      , "range" : "Touch"
+		      , "duration" : "Sun"
+		      , "target" : "Room"
+		      , "modifiers" : "12 uses/day"
+		      , "design" : "GL 4, +1 Touch, +2 Moon, +2 Room, +4 constant effect"
+		      , "description" : [
+                       "Like *Purification of the Festering Wounds* (+9 recovery bonus)"
+                       , "works on everyone as long as the stay in the room"
+                      ]
+		   }
+		}
+               }
+         }
+                    , { "possession" : { "art" : "Co", "count" : -3
+		        , "comment" : "for enchantment" } }
+      ]
+      }, { "mode" : "Teaching", "season" : "Winter 1257"
+      , "narrative" : "Teaching Latin to Luciu SQ 22"
+      , "changes" : [ 
+         { "ability" : "Teaching", "xp" : 2 }
+         ,  { "aging" : { "apparentYounger" : 1
+               , "die" : 5
+               , "roll" : -1
+               , "comment" : "No aging."
 	    } }
+      ]
+      }, { "mode" : "Vis study", "season" : "Spring 1257"
+      , "sourceQuality" : 28
+      , "changes" : [ { "art" : "Imaginem", "xp" : 28
+                      , "bonusXP" : 1, "comment" : "with Correspondent" } 
+                    , { "possession" : { "art" : "Im", "count" : -6
+		        , "comment" : "vis study" } } 
+                    , { "reputation" : "Friendly druid",
+                       "locale" : "Lands of O'Sullivan", "xp" : 1 }
+      ]
+      }, { "mode" : "Lab Work", "season" : "Summer 1257"
+      , "narrative" : "Training Luciu in Magic Theory SQ 15"
+      , "comment" : "Lab total 47 + amber +3 on Corpus; similar spell +5; familiar +6"
+      , "changes" : [ 
+         { "ability" : "Creo", "xp" : 2 }
+         , { "possession" : 
+	       { "enchantment" : { "lesseritem" :
+		   { "name" : "Cup of Purifying Drink"
+		      , "level" : 30
+		      , "technique" : "Cr"
+		      , "form" : "Co"
+		      , "range" : "Touch"
+		      , "duration" : "Moon"
+		      , "target" : "Ind"
+		      , "modifiers" : "12 uses/day"
+		      , "design" : "GL 5, +1 Touch, +3 Moon, +5 levels for uses"
+		      , "description" : [
+                       "Like *Improved Purification of the Festering Wounds*"
+                       , "works on one who drinks from the cup"
+                      ]
+		   }
+		}
+               }
+         }
+                    , { "possession" : { "art" : "Co", "count" : -3
+		        , "comment" : "for enchantment" } }
+      ]
+      },
+      { "mode" : "Author", "season" : "Autumn 1257"
+      , "sourceQuality" : 2
+      , "narrative" : "Tractatus on Imaginem Q14: *Volume III on Imaginem*"
+      , "changes" : [ { "ability" : "Latin", "xp" : 2 } 
+                    , { "possession" : { "art" : "Im", "count" : 5
+		        , "comment" : "salary" } } 
+                    , { "possession" : { "art" : "Vi", "count" : 3
+		        , "comment" : "allowance" } } 
+      ]
+      }, { "mode" : "Lab Work", "season" : "Winter 1258"
+      , "narrative" : "Training Luciu in Magic Theory SQ 15"
+      , "comment" : "Lab Total 62 incl. familiar"
+      , "changes" : [ 
+         { "ability" : "Creo", "xp" : 2 }
+         , { "spell" : "Circle of Preserved Connections"
+	    , "tefo" : "CrVi"
+	    , "level" : 30 
+	    , "design" : "Base 15 [MoH:113] +2 Ring, +1 Touch"
+	 }
+         ,  { "aging" : { "apparentYounger" : 1
+               , "die" : 5
+               , "roll" : -1
+               , "comment" : "No aging."
+	    } }
+      ]
+      }
+      , { "mode" : "Lab Work", "season" : "Spring 1258"
+      , "narrative" : "Training Luciu in Magic Theory SQ 15"
+      , "comment" : [ "Lab Total 55 + Familiar 7 + Spell Spec 8 = 70, but it is halved due to Short Range Magic" ]
+      , "changes" : [ 
+         { "ability" : "Magic Theory", "xp" : 2 }
+
+         , { "spell" : "Radiance of the Golden Firefly"
+            , "design" : "Base 2; R: Touch (+1), D: Sun (+2), T: Ind (+0)"
+            , "description" : "The skin and hair of a person glow bright like the thorax of a firefly."
+            , "tefo" : "MuCo(An)", "level" : 5
+            , "mastery" : [ "Penetration" ]
+         }
+         , { "spell" : "Disguise of the Transformed Person"
+            , "design" : "Base 3; R: Touch (+1), D: Sun (+2), T: Ind (+0), +1 Complex Effect"
+            , "description" : "Transforms the entire person (casting requisites transform items worn and carried as Personal)."
+            , "tefo" : "MuCo", "level" : 15
+            , "mastery" : [ "Quiet Casting" ]
+         }
+         , { "ability" : "Hermes Lore", "bonusXP" : 1 }
+         , { "spell" : "Shape of the Feline Grace"
+            , "design" : "Base 10; R: Touch (+1), D: Sun (+2), T: Ind (+0)"
+            , "description" : "As per Shape of the Woodland Prowler but turns in to a lynx"
+            , "tefo" : "MuCo(An)", "level" : 25
+            , "mastery" : [ "Quiet Casting" ]
+            , "comment" : "Side effect: the target gets the personality trait Individualist +3 (individualist and proud like a feline) after the spell ends, for twice the duration that the spell lasted."
+         }
+      ]
+      },
+      { "mode" : "Vis study", "season" : "Summer 1258"
+	 , "narrative" : "Luciu uses the lab to fixate arcane connections, including to Lord Protector for Tiou and the raven for Tim"
+         , "sourceQuality" : 12
+         , "changes" : [ { "art" : "Imaginem", "xp" : 12 } 
+                    , { "possession" : { "art" : "Im", "count" : -6
+		        , "comment" : "vis study" } } 
+             , { "possession" : { "acTo" : "Midsummer Fair in the Greater Alps"  } }
+             , { "possession" : { "acTo" : "Durenmar"  } }
+             , { "possession" : { "art" : "Vi", "count" : -2
+		        , "comment" : "for arcane connection" } } 
+	 ]
+      },
+      { "mode" : "Lab Work", "season" : "Autumn 1258"
+      , "comment" : [ "Lab Total 55 + Familiar 7 + Spell Spec 8 = 70, but it is halved due to Short Range Magic" ]
+      , "changes" : [ 
+           { "art" : "Imaginem", "xp" : 2, "bonusXP" : 1, "comment" : "with Correspondent" }
+         , { "spell" : "False Dune"
+            , "tefo" : "MuIm", "level" : 5
+            , "mastery" : [ "Quiet Casting" ]
+         }
+         , { "spell" : "Glowing Footprints of the Thief"
+            , "tefo" : "MuIm", "level" : 20
+            , "mastery" : [ "Quiet Casting" ]
+         }
+         , { "spell" : "Confound the Rival Singer"
+            , "tefo" : "MuIm", "level" : 5
+            , "mastery" : [ "Penetration" ]
+         }
+                    , { "possession" : { "art" : "Im", "count" : 3
+		        , "comment" : "allowance" } } 
       ]
       }
    ]
